@@ -17,16 +17,137 @@ export default function Home() {
           />
         </Helmet>
     <Layout>
-      <div style={{ color: `purple`, fontSize: `72px` }}>Doctor Serenity</div>
-      <div style={{color: 'purple'}}> <p>What a world</p></div>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
-      <div>
-        <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
-        <p>
-          What do I like to do? Lots of course but definitely enjoy building
-          websites.
-        </p>
-      </div>
+    <div  id="page-container">
+
+<section class="row-grey-bg">
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+      <h2 id="home-quote">
+        Live a healthier, wealthier, more fulfilling, passionate and purposeful life – whether that means achieving in business, reigniting your relationship or discovering who you really are.
+      </h2>
+    </div>
+  </div> 
+</div>
+{/* container */}
+</section>
+
+<section>
+<div class="container">
+<div class="row">
+  <div class="container">
+    <h2>Here are just a few areas Dr. Serenity™  specializes in.</h2>
+  </div>
+  <div class="col-md-3">
+    <img src="_Images/icon-work.svg" alt="Well-being" class="icon"/>
+    <h2>Well-being</h2>
+    <p id="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien.</p>
+  </div>
+
+  <div class="col-md-3">
+    <img src="_Images/icon-work.svg" alt="Productivity" class="icon"/>
+    <h2>Productivity</h2>
+    <p id="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien.</p>
+  </div>
+
+  <div class="col-md-3">
+    <img src="_Images/icon-work.svg" alt="Finding purpose" class="icon"/>
+    <h2>Finding purpose</h2>
+    <p id="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien.</p>
+  </div>
+
+  <div class="col-md-3">
+    <img src="_Images/icon-work.svg" alt="Relationships" class="icon"/>
+    <h2>Relationships</h2>
+    <p id="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien.</p>
+  </div>
+
+</div>
+</div>
+{/* container */}
+</section>
+
+<section class="row-grey-bg">
+<div class="container">
+<div class="row">
+  <div class="col-md-5 offset-md-1">
+    <img src="_Images/randomalarm-screenshot-left.png" class="img-fluid" alt="Random Alarm"/>
+  </div>
+
+  <div class="col-md-5">
+    <h3>RandomAlarm™</h3>
+    <p>
+      I incorporate my proprietary start-and-stop task management system into all of my coaching techniques. Download today to get started now.
+    </p>
+    <img src="_Images/btn-download.png" class="img-fluid" alt="Download Random Alarm"/>
+  </div>
+
+</div>
+</div>
+{/* container */}
+</section>
+
+<section>
+<div class="container">
+<div class="row">
+  <div class="container">
+    <h2>Don’t take my word for it. See what some of my clients have to say.</h2>
+  </div>
+  <div class="col-md-4">
+    <p class="testimonial-blurb">
+      “I’m sleeping less than ever due to Dr. Serenity™’s RandomAlarm™! I’m really tired all the time but oddly still able to function. It really works!”
+    </p>
+    <img src="_Images/testimonial-tara.jpeg" alt="Tara" class="testimonial-photo"/>
+    <p class="testimonial-name">Tara S.</p>
+    <p class="small caption">This testimonial was submitted by a paid participant</p>
+  </div>
+
+  <div class="col-md-4">
+    <p class="testimonial-blurb">
+      “Dr. Serenity™’s persistent nagging really gets me motivated. Yet he somehow has a calming effect on me, but that could just be all the magnesium.”
+    </p>
+    <img src="_Images/testimonial-theresa.jpeg" alt="Theresa" class="testimonial-photo"/>
+    <p class="testimonial-name">Theresa S.</p>
+    <p class="small caption">This testimonial was submitted by a paid participant</p>
+  </div>
+
+  <div class="col-md-4">
+    <p class="testimonial-blurb">
+      “After participating in Dr. Serenity™’s Proprietary Dress for Serenity™ Program, I look and feel more serene than ever. I feel confident in whatever I wear.”
+    </p>
+    <img src="_Images/testimonial-tiffany.jpeg" alt="Tiffany" class="testimonial-photo"/>
+    <p class="testimonial-name">Tiffany S.</p>
+    <p class="small caption">This testimonial was submitted by a paid participant</p>
+  </div>
+
+</div>
+</div>
+{/* container */}
+</section>
+
+<section class="row-grey-bg">
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 offset-md-2">
+      <h2 class="session-text">Book a session today and receive a free Dr. Serenity™ stress ball!</h2>
+      <p class="small caption session-text">Stress balls are a proven way to reduce stress!</p>
+      <a class="btn btn-primary session-button" href="#" role="button">Book a session now</a>
+    </div>
+    <div class="col-md-3">
+      <img src="_Images/stressball.png" alt="Stressball" class="img-fluid"/>
+    </div>
+
+  </div>
+  {/* row */}
+
+
+</div></section>
+
+
+<footer id="footer"></footer>
+
+</div>
+{/* page conatiner */}
     </Layout>
     
     </>
