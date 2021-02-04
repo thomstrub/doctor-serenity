@@ -2,6 +2,7 @@ import React from "react"
 import {Link} from "gatsby"
 import {Helmet} from "react-helmet"
 import Layout from '../components/layout'
+import Icon from '../components/icon/icon'
 
 export default function Home() {
   return (
@@ -38,29 +39,11 @@ export default function Home() {
   <div class="container">
     <h2>Here are just a few areas Dr. Serenity™  specializes in.</h2>
   </div>
-  <div class="col-md-3">
-    <img src="_Images/icon-work.svg" alt="Well-being" class="icon"/>
-    <h2>Well-being</h2>
-    <p id="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien.</p>
-  </div>
-
-  <div class="col-md-3">
-    <img src="_Images/icon-work.svg" alt="Productivity" class="icon"/>
-    <h2>Productivity</h2>
-    <p id="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien.</p>
-  </div>
-
-  <div class="col-md-3">
-    <img src="_Images/icon-work.svg" alt="Finding purpose" class="icon"/>
-    <h2>Finding purpose</h2>
-    <p id="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien.</p>
-  </div>
-
-  <div class="col-md-3">
-    <img src="_Images/icon-work.svg" alt="Relationships" class="icon"/>
-    <h2>Relationships</h2>
-    <p id="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien.</p>
-  </div>
+  <Icon content="Well-being" />
+  <Icon content="Productivity" />
+  <Icon content="Finding Purpose" />
+  <Icon content="Relationships" />
+  
 
 </div>
 </div>
