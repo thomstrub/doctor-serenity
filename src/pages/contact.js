@@ -19,10 +19,10 @@ export default function Contact() {
           />
     </Helmet>
     <Layout>
-    <div className="container-md">
+    <div className="container-md" style={{marginBottom: "50px", marginTop: "50px"}}>
     <h1 className="display-3">Get in touch to begin your journey.</h1>
     </div>
-    <div className="container">
+    <div className="container" style={{marginBottom: "100px", marginTop: "50px"}}>
         <form className="email">
             <div className="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
@@ -45,10 +45,7 @@ export default function Contact() {
             <button type="button" className="btn btn-primary btn-lg">Submit</button>
         </form>
     </div>
-    <footer>
-    <p>
-        Cool website by Thom Strub
-    </p>
+    <footer id="footer">
     </footer>
     </Layout>
     </>

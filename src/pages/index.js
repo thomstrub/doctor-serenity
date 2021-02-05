@@ -70,7 +70,7 @@ export default function Home() {
         {/* container */}
         </section>
 
-        <section className="row-grey-bg">
+        <section className="row-grey-bg" style={{marginBottom: "0"}}>
             <Stressball />
         </section>
 

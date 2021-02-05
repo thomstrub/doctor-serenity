@@ -3,7 +3,7 @@ import "./stressball.css"
 
 export default function Stressball(){
     return(
-        <div className="container">
+        <div className="container" style={{padding: "50px"}}>
             <div className="row">
                 <div className="col-md-5 offset-md-2">
                     <h2 className="session-text">Book a session today and receive a free Dr. Serenity™ stress ball!</h2>
