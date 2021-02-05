@@ -5,6 +5,7 @@ import {Link} from "gatsby"
 import Layout from "../components/layout"
 import {Helmet} from "react-helmet"
 import RandomAlarmBlurb from "../components/randomAlarmBlurb/randomAlarmBlurb"
+import Accredation from "../components/accredation/accredation"
 
 export default function About() {
   return(
@@ -23,31 +24,31 @@ export default function About() {
       <div id="page-container">
 
       <section className="hero-img">
-      <div className="container">
-        <div className="row">
-        <div className="col-md-12">
-          <h2 className="hero">Forget the mistake. Remember the lesson.</h2>
+        <div className="container">
+          <div className="row">
+          <div className="col-md-12">
+            <h2 className="hero">Forget the mistake. Remember the lesson.</h2>
+          </div>
         </div>
-      </div>
-      </div>
+        </div>
 
       </section>
 
       <section>
-      <div className="container">
-      <div className="row">
-        <div className="col-md-3 offset-md-2">
-          <img src="_Images/i-am-dr-serenity.png" alt="Dr. Serenity" className="img-fluid"/>
-        </div>
-        <div className="col-md-5">
-          <h2>I’m Dr. Serenity™</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, erat cras ante erat imperdiet eget augue quis a. Volutpat tincidunt fermentum, lobortis purus sed amet. Nibh elementum arcu scelerisque interdum. Netus in id libero leo sed penatibus.
-          </p>
-        </div>
+        <div className="container">
+        <div className="row">
+          <div className="col-md-3 offset-md-2">
+            <img src="_Images/i-am-dr-serenity.png" alt="Dr. Serenity" className="img-fluid"/>
+          </div>
+          <div className="col-md-5">
+            <h2>I’m Dr. Serenity™</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, erat cras ante erat imperdiet eget augue quis a. Volutpat tincidunt fermentum, lobortis purus sed amet. Nibh elementum arcu scelerisque interdum. Netus in id libero leo sed penatibus.
+            </p>
+          </div>
 
-      </div>
-      </div>
+        </div>
+        </div>
       </section>
 
       <section className="row-grey-bg">
@@ -56,14 +57,13 @@ export default function About() {
         <div className="container">
           <h2>I’m accredited in many areas.</h2>
         </div>
-        <div className="col-md-4">
-          <img src="_Images/about-accredidation-dogtraining.png" alt="Dog Training" className="img-fluid"/>
-          <h3>Dog Training</h3>
-          <p>
-            My experience as a dog trainer* has lent itself to the world of Life Coaching. You’d be surprised how much humans and dogs are alike! They just need a little discipline.
-          </p>
-          <p className="small caption">*not formally certified</p>
-        </div>
+
+        <Accredation 
+          name="Dog Training" 
+          blurb="My experience as a dog trainer* has lent itself to the world of Life Coaching. You’d be surprised how much humans and dogs are alike! They just need a little discipline." 
+          image="_Images/about-accredidation-dogtraining.png"
+          caption="*not formally certified"
+          />
 
         <div className="col-md-4">
           <img src="_Images/about-accredidation-doctorofdivinity.png" alt="Certified Dr. of Divinity" className="img-fluid"/>
