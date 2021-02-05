@@ -4,6 +4,7 @@ import {Helmet} from "react-helmet"
 import Layout from '../components/layout'
 import Icon from '../components/icon/icon'
 import Testimonial from '../components/testimonial/testimonial'
+import RandomAlarmBlurb from '../components/randomAlarmBlurb/randomalarmBlurb'
 
 export default function Home() {
   return (
@@ -36,39 +37,21 @@ export default function Home() {
 
 <section>
 <div class="container">
-<div class="row">
-  <div class="container">
-    <h2>Here are just a few areas Dr. Serenity™  specializes in.</h2>
+  <div class="row">
+    <div class="container">
+      <h2>Here are just a few areas Dr. Serenity™  specializes in.</h2>
+    </div>
+    <Icon content="Well-being" />
+    <Icon content="Productivity" />
+    <Icon content="Finding Purpose" />
+    <Icon content="Relationships" />
   </div>
-  <Icon content="Well-being" />
-  <Icon content="Productivity" />
-  <Icon content="Finding Purpose" />
-  <Icon content="Relationships" />
-  
-
-</div>
 </div>
 {/* container */}
 </section>
 
 <section class="row-grey-bg">
-<div class="container">
-<div class="row">
-  <div class="col-md-5 offset-md-1">
-    <img src="_Images/randomalarm-screenshot-left.png" class="img-fluid" alt="Random Alarm"/>
-  </div>
-
-  <div class="col-md-5">
-    <h3>RandomAlarm™</h3>
-    <p>
-      I incorporate my proprietary start-and-stop task management system into all of my coaching techniques. Download today to get started now.
-    </p>
-    <img src="_Images/btn-download.png" class="img-fluid" alt="Download Random Alarm"/>
-  </div>
-
-</div>
-</div>
-{/* container */}
+    <RandomAlarmBlurb />
 </section>
 
 <section>

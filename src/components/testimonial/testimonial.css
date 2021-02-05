@@ -1,0 +1,32 @@
+#testimonial-title {
+    margin-bottom: 0;
+  }
+  
+  .testimonial-photo {
+    border-radius: 500px;
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .testimonial-blurb {
+    font-family: Merriweather;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+  
+  .testimonial-name {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+  
+    text-align: center;
+  
+    color: #000000;
+  }
