@@ -3,6 +3,7 @@ import {Link} from "gatsby"
 import {Helmet} from "react-helmet"
 import Layout from '../components/layout'
 import Icon from '../components/icon/icon'
+import Testimonial from '../components/testimonial/testimonial'
 
 export default function Home() {
   return (
@@ -76,32 +77,9 @@ export default function Home() {
   <div class="container">
     <h2>Don’t take my word for it. See what some of my clients have to say.</h2>
   </div>
-  <div class="col-md-4">
-    <p class="testimonial-blurb">
-      “I’m sleeping less than ever due to Dr. Serenity™’s RandomAlarm™! I’m really tired all the time but oddly still able to function. It really works!”
-    </p>
-    <img src="_Images/testimonial-tara.jpeg" alt="Tara" class="testimonial-photo"/>
-    <p class="testimonial-name">Tara S.</p>
-    <p class="small caption">This testimonial was submitted by a paid participant</p>
-  </div>
-
-  <div class="col-md-4">
-    <p class="testimonial-blurb">
-      “Dr. Serenity™’s persistent nagging really gets me motivated. Yet he somehow has a calming effect on me, but that could just be all the magnesium.”
-    </p>
-    <img src="_Images/testimonial-theresa.jpeg" alt="Theresa" class="testimonial-photo"/>
-    <p class="testimonial-name">Theresa S.</p>
-    <p class="small caption">This testimonial was submitted by a paid participant</p>
-  </div>
-
-  <div class="col-md-4">
-    <p class="testimonial-blurb">
-      “After participating in Dr. Serenity™’s Proprietary Dress for Serenity™ Program, I look and feel more serene than ever. I feel confident in whatever I wear.”
-    </p>
-    <img src="_Images/testimonial-tiffany.jpeg" alt="Tiffany" class="testimonial-photo"/>
-    <p class="testimonial-name">Tiffany S.</p>
-    <p class="small caption">This testimonial was submitted by a paid participant</p>
-  </div>
+  <Testimonial name="Tara S." image="_Images/testimonial-tara.jpeg" blurb="I’m sleeping less than ever due to Dr. Serenity™’s RandomAlarm™! I’m really tired all the time but oddly still able to function. It really works!"/>
+  <Testimonial name="Theresa S." image="_Images/testimonial-theresa.jpeg" blurb="Dr. Serenity™’s persistent nagging really gets me motivated. Yet he somehow has a calming effect on me, but that could just be all the magnesium."/>
+  <Testimonial name="Tiffany S." image="_Images/testimonial-tiffany.jpeg" blurb="After participating in Dr. Serenity™’s Proprietary Dress for Serenity™ Program, I look and feel more serene than ever. I feel confident in whatever I wear."/>
 
 </div>
 </div>
