@@ -64,22 +64,16 @@ export default function About() {
           image="_Images/about-accredidation-dogtraining.png"
           caption="*not formally certified"
           />
-
-        <div className="col-md-4">
-          <img src="_Images/about-accredidation-doctorofdivinity.png" alt="Certified Dr. of Divinity" className="img-fluid"/>
-          <h3>Doctor of Divinity</h3>
-          <p>
-            You can obtain the Doctor of Divinity Degree through the Universal Life Church. When you order this custom 8.5" x 11" frameable certificate, they send it out to be hand-lettered in beautiful calligraphy by the church scribe. It is printed on high quality paper, with a standard frame sizing and features the gold church seal.
-          </p>
-        </div>
-
-        <div className="col-md-4">
-          <img src="_Images/about-accredidation-hazmat.png" alt="Hazmat Training Experience" className="img-fluid"/>
-          <h3>Hazmat Certification</h3>
-          <p>
-            In order to receive a hazmat certification, employees must participate in general awareness or familiarization training conducted by a verified HAZMAT consultant. Participants will have a basic understanding of the following fundamentals: The Identification of Hazardous Materials. The Hazard ClassNameification System.      
-          </p>
-        </div>
+        <Accredation 
+          name="Doctor of Divinity" 
+          blurb="You can obtain the Doctor of Divinity Degree through the Universal Life Church. When you order this custom 8.5 x 11 inch frameable certificate, they send it out to be hand-lettered in beautiful calligraphy by the church scribe. It is printed on high quality paper, with a standard frame sizing and features the gold church seal." 
+          image="_Images/about-accredidation-doctorofdivinity.png"
+          />
+        <Accredation 
+          name="Hazmat Training" 
+          blurb="In order to receive a hazmat certification, employees must participate in general awareness or familiarization training conducted by a verified HAZMAT consultant. Participants will have a basic understanding of the following fundamentals: The Identification of Hazardous Materials. The Hazard ClassNameification System." 
+          image="_Images/about-accredidation-hazmat.png"
+          />
 
       </div>
       </div>
