@@ -20,7 +20,7 @@ h2 {
   }
   
   .hero-img {
-    background-image: url("_Images/Inner-peace-blog-feature-02-1080x600 1.png")
+    background-image: url("../../public/_Images/Inner-peace-blog-feature-02-1080x600 1.png")
   }
 
 p {
@@ -35,4 +35,14 @@ p {
   #home-quote {
     font-style: italic;
     font-weight: normal;
+  }
+
+  .row-grey-bg {
+    background: #E7EBEF;
+  }
+
+  #footer {
+    background: #414784;
+    width: 100%;
+    height: 120px;
   }
