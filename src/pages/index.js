@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import Icon from '../components/icon/icon'
 import Testimonial from '../components/testimonial/testimonial'
 import RandomAlarmBlurb from '../components/randomAlarmBlurb/randomalarmBlurb'
+import Stressball from '../components/stressball/stressball'
 
 export default function Home() {
   return (
@@ -70,22 +71,8 @@ export default function Home() {
 </section>
 
 <section class="row-grey-bg">
-<div class="container">
-  <div class="row">
-    <div class="col-md-5 offset-md-2">
-      <h2 class="session-text">Book a session today and receive a free Dr. Serenity™ stress ball!</h2>
-      <p class="small caption session-text">Stress balls are a proven way to reduce stress!</p>
-      <a class="btn btn-primary session-button" href="#" role="button">Book a session now</a>
-    </div>
-    <div class="col-md-3">
-      <img src="_Images/stressball.png" alt="Stressball" class="img-fluid"/>
-    </div>
-
-  </div>
-  {/* row */}
-
-
-</div></section>
+    <Stressball />
+</section>
 
 
 <footer id="footer"></footer>
