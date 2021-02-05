@@ -18,7 +18,10 @@ h2 {
     text-align: center;
   
   }
-  
+  section {
+      margin: 10px 0 30px 0;
+      padding: 10px auto;
+  }
   .hero-img {
     background-image: url("../../public/_Images/Inner-peace-blog-feature-02-1080x600 1.png")
   }
@@ -30,8 +33,6 @@ h2 {
     font-weight: 300;
     font-size: 44px;
     line-height: 55px;
-    text-align: center;
-  
     color: #FFFFFF;
   
   }
@@ -52,6 +53,7 @@ p {
 
   .row-grey-bg {
     background: #E7EBEF;
+    padding: 20px;
   }
 
   #footer {
