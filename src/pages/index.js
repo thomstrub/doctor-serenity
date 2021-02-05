@@ -52,7 +52,7 @@ export default function Home() {
         </section>
 
         <section className="row-grey-bg">
-            <RandomAlarmBlurb />
+            <RandomAlarmBlurb title="RandomAlarm™"/>
         </section>
 
         <section>

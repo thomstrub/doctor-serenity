@@ -1,7 +1,7 @@
 import React from "react";
 import "./randomAlarmBlurb.css"
 
-export default function RandomAlarmBlurb(){
+export default function RandomAlarmBlurb({title}){
     return(
         <div className="container">
             <div className="row">
@@ -10,7 +10,7 @@ export default function RandomAlarmBlurb(){
                 </div>
 
                 <div className="col-md-5">
-                    <h3>RandomAlarm™</h3>
+                    <h3>{title}</h3>
                     <p>
                     I incorporate my proprietary start-and-stop task management system into all of my coaching techniques. Download today to get started now.
                     </p>

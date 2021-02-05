@@ -1,9 +1,10 @@
 import React from "react"
-import "./index.css"
+import './index.css'
 import Header from '../components/header'
 import {Link} from "gatsby"
 import Layout from "../components/layout"
 import {Helmet} from "react-helmet"
+import RandomAlarmBlurb from "../components/randomAlarmBlurb/randomAlarmBlurb"
 
 export default function About() {
   return(
@@ -85,22 +86,7 @@ export default function About() {
       </section>
 
       <section>
-      <div class="container">
-      <div class="row">
-        <div class="col-md-5 offset-md-1">
-          <img src="_Images/randomalarm-screenshot-left.png" class="img-fluid" alt="Random Alarm"/>
-        </div>
-
-        <div class="col-md-5">
-          <h3>Inventor of RandomAlarm™</h3>
-          <p>
-            I incorporate my proprietary start-and-stop task management system into all of my coaching techniques. Download today to get started now.
-          </p>
-          <img src="_Images/btn-download.png" class="img-fluid" alt="Download Random Alarm"/>
-        </div>
-
-      </div>
-      </div>
+      <RandomAlarmBlurb title="Inventor of RandomAlarm™" />
       </section>
 
       <footer id="footer"></footer>
