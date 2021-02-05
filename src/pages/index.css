@@ -1,0 +1,38 @@
+h2 {
+    margin: 0 0 40px 0;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  h3 {
+    margin: 40px 0 40px 0;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  
+  }
+  
+  .hero-img {
+    background-image: url("_Images/Inner-peace-blog-feature-02-1080x600 1.png")
+  }
+
+p {
+    margin: 0 0 40px 0;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  #home-quote {
+    font-style: italic;
+    font-weight: normal;
+  }

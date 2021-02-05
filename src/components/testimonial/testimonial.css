@@ -1,7 +1,14 @@
 #testimonial-title {
     margin-bottom: 0;
   }
-  
+  p {
+    margin: 0 0 40px 0;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+  }
   .testimonial-photo {
     border-radius: 500px;
     width: 140px;

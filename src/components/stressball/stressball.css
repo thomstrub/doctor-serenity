@@ -7,3 +7,45 @@ h2 {
     line-height: 35px;
     text-align: center;
   }
+  p {
+    margin: 0 0 40px 0;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .caption {
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+  
+    text-align: center;
+  
+  }
+  
+  
+  .session-button{
+    background: #5FB1AD;
+    width: 248px;
+    height: 68px;
+    padding-top: 20px;
+    border-radius: 6px;
+    font-family: Merriweather;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  
+  .session-text{
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 600px) {
+    img {
+      margin: 40px 0 40px 0;
+    }
+  }
