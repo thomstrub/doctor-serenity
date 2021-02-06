@@ -23,10 +23,10 @@ export default function About() {
       <Layout>
       <div id="page-container">
 
-      <section className="hero-img">
-        <div className="container">
+      <section className="container-fluid hero-img">
+        <div>
           <div className="row">
-          <div className="col-md-12" style={{minHeight: "300px", display: "flex", justifyContent: "center", marginTop: "80px"}}>
+          <div className="col-md-12" style={{minHeight: "300px", display: "flex", margin: "10vw 0 0 20vw"}}>
             <h2 className="hero">Forget the mistake. Remember the lesson.</h2>
           </div>
         </div>

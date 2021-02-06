@@ -23,7 +23,8 @@ h2 {
       padding: 10px auto;
   }
   .hero-img {
-    background-image: url("../../public/_Images/Inner-peace-blog-feature-02-1080x600 1.png")
+    background-image: url("../../public/_Images/Inner-peace-blog-feature-02-1080x600 1.png");
+    background-repeat: no-repeat;
   }
 
   .hero {
