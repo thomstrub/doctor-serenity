@@ -8,3 +8,23 @@
     text-align: center;
   
   }
+
+  p {
+    margin: 0 0 40px 0;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  h3 {
+    margin: 40px 0 40px 0;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  
+  }
