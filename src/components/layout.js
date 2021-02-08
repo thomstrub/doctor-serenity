@@ -1,12 +1,12 @@
 import React from 'react'
-import Nav from './nav/nav'
+import Header from './header/header'
 
 
 export default function Layout({ children }) {
     return (
         <div>
             <header>
-                <Nav />
+                <Header />
             </header>
             {children}
         </div>

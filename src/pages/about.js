@@ -1,6 +1,5 @@
 import React from "react"
 import './index.css'
-import Header from '../components/header'
 import {Link} from "gatsby"
 import Layout from "../components/layout"
 import {Helmet} from "react-helmet"

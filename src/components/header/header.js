@@ -1,6 +1,7 @@
 import React from "react"
-import './nav.css'
+import './header.css'
 import { Link } from "gatsby"
+import {Nav} from 'react-bootstrap'
 
 const ListLink = props => (
     <li className= "nav-item">
@@ -9,7 +10,7 @@ const ListLink = props => (
 )
 
 
-export default function Nav() {
+export default function Header() {
   return(
       <>
         <div className="container">
@@ -23,6 +24,7 @@ export default function Nav() {
             <ListLink to="/contact">Contact</ListLink>
         </ul>
         </div>
+
       </>
   )
     
