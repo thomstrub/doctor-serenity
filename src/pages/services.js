@@ -17,7 +17,7 @@ export default function Contact() {
           />
     </Helmet>
     <Layout>
-    <Hero image="url('_Images/water.jpeg')" blurb="If your dreams don’t scare you, they’re too small."/>
+    <Hero image='_Images/water.jpg' blurb="If your dreams don’t scare you, they’re too small."/>
     <footer id="footer">
     </footer>
     </Layout>
