@@ -5,8 +5,7 @@ import { Nav, Navbar } from 'react-bootstrap'
 
 const ListLink = props => (
     <Nav.Item as={Link} className="nav-link active" to={props.to}>
-        {props.children}
-        
+        {props.children} 
     </Nav.Item>
     
 )
@@ -15,6 +14,7 @@ const ListLink = props => (
 export default function Header() {
   return(
       <>
+        <div className="container">
         <Navbar style={{display: "flex", justifyContent: "space-between"}}>
         <Navbar.Brand as={Link} to="/">
             <img
@@ -34,7 +34,7 @@ export default function Header() {
             
         </Nav>
         </Navbar>
-        
+        </div>
       </>
   )
     
