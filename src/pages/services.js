@@ -2,7 +2,7 @@ import React from "react"
 import './index.css'
 import Layout from "../components/layout"
 import {Helmet} from "react-helmet"
-
+import Hero from "../components/hero/hero"
 export default function Contact() {
   return (
     <>
@@ -17,7 +17,7 @@ export default function Contact() {
           />
     </Helmet>
     <Layout>
-    Service
+    <Hero image="url('_Images/water.jpeg')" blurb="If your dreams don’t scare you, they’re too small."/>
     <footer id="footer">
     </footer>
     </Layout>
