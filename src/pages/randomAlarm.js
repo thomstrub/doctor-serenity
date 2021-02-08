@@ -17,7 +17,7 @@ export default function Contact() {
           />
     </Helmet>
     <Layout>
-    Service
+    Random Alarm
     <footer id="footer">
     </footer>
     </Layout>
