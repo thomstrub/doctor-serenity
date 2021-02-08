@@ -4,7 +4,7 @@ import Header from './header/header'
 
 export default function Layout({ children }) {
     return (
-        <div>
+        <div className="container-flex">
             <header>
                 <Header />
             </header>
