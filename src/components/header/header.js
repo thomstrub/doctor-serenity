@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import { Nav, Navbar } from 'react-bootstrap'
 
 const ListLink = props => (
-    <Nav.Item as={Link} className="nav-link active" to={props.to}>
+    <Nav.Item as={Link} className="nav-link active link" to={props.to}>
         {props.children} 
     </Nav.Item>
     
