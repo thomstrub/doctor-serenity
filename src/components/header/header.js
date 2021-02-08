@@ -14,7 +14,7 @@ const ListLink = props => (
 export default function Header() {
   return(
       <>
-        <div className="container">
+        <div className="container header">
         <Navbar style={{display: "flex", justifyContent: "space-between"}}>
         <Navbar.Brand as={Link} to="/">
             <img
