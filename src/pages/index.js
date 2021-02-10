@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState, useEffect} from "react"
 import "./index.css"
 import {Helmet} from "react-helmet"
 import Layout from '../components/layout'
@@ -7,7 +7,12 @@ import Testimonial from '../components/testimonial/testimonial'
 import RandomAlarmBlurb from '../components/randomAlarmBlurb/randomAlarmBlurb'
 import Stressball from '../components/stressball/stressball'
 
+
+
 export default function Home() {
+  const [state, setState] = useState({
+    page: "index"
+  });
   return (
     <>
     <Helmet>
@@ -42,10 +47,10 @@ export default function Home() {
             <div className="container">
               <h2>Here are just a few areas Dr. Serenity™  specializes in.</h2>
             </div>
-            <Icon content="Well-being" />
-            <Icon content="Productivity" />
-            <Icon content="Finding Purpose" />
-            <Icon content="Relationships" />
+            <Icon content="Well-being" page={state.page}/>
+            <Icon content="Productivity" page={state.page}/>
+            <Icon content="Finding Purpose" page={state.page}/>
+            <Icon content="Relationships" page={state.page}/>
           </div>
         </div>
         {/* container */}

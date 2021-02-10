@@ -1,9 +1,18 @@
-import React from "react"
+import React, {useState} from "react"
 import './index.css'
 import Layout from "../components/layout"
+import Icon from "../components/icon/icon"
 import {Helmet} from "react-helmet"
 import Hero from "../components/hero/hero"
+
+
+
 export default function Contact() {
+
+    const [state, setState] = useState({
+        page: "services"
+      });
+
   return (
     <>
     <Helmet>
@@ -17,7 +26,20 @@ export default function Contact() {
           />
     </Helmet>
     <Layout>
-    <Hero image='_Images/water.jpg' blurb="If your dreams don’t scare you, they’re too small."/>
+        <Hero image='_Images/water.jpg' blurb="If your dreams don’t scare you, they’re too small."/>
+        <section>
+        <div className="container">
+          <div className="row">
+            <div className="container">
+              <h2>Coaching Techniques</h2>
+            </div>
+            <Icon content="Persistent Goading" page={state.page}/>
+            <Icon content="RandomAlarm™" page={state.page}/>
+            <Icon content="Relentless Advice" page={state.page}/>
+          </div>
+        </div>
+        {/* container */}
+        </section>
     <footer id="footer">
     </footer>
     </Layout>
