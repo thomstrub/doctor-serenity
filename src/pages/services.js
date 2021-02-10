@@ -41,7 +41,9 @@ export default function Contact() {
         </div>
         {/* container */}
         </section>
-        <Stressball />
+        <section className="row-grey-bg" style={{marginBottom: "0"}}>
+            <Stressball page={state.page}/>
+        </section>
     <footer id="footer">
     </footer>
     </Layout>
