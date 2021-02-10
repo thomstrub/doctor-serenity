@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Icon from "../components/icon/icon"
 import {Helmet} from "react-helmet"
 import Hero from "../components/hero/hero"
+import Stressball from "../components/stressball/stressball"
 
 
 
@@ -40,6 +41,7 @@ export default function Contact() {
         </div>
         {/* container */}
         </section>
+        <Stressball />
     <footer id="footer">
     </footer>
     </Layout>
