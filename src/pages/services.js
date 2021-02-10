@@ -25,7 +25,7 @@ export default function Contact() {
             crossorigin="anonymous"
           />
     </Helmet>
-    <Layout page={state.page}>
+    <Layout page="Services">
         <Hero image='_Images/water.jpg' blurb="If your dreams don’t scare you, they’re too small."/>
         <section>
         <div className="container">

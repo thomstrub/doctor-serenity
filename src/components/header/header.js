@@ -5,13 +5,13 @@ import { Nav, Navbar } from 'react-bootstrap'
 
 const ListLink = props => (
     <Nav.Item as={Link} className="nav-link active link" to={props.to}>
-        {props.children} 
+        {props.children === props.page ? <strong>{props.children}</strong> : props.children} 
     </Nav.Item>
     
 )
 
 
-export default function Header() {
+export default function Header({page}) {
   return(
       <>
         <div className="container header">
@@ -27,11 +27,11 @@ export default function Header() {
             </Navbar.Brand>
             <Nav className="justify-content-end">
             
-                <ListLink to="/">Home</ListLink>
-                <ListLink to="/about">About</ListLink>
-                <ListLink to="/services">Services</ListLink>
-                <ListLink to="/randomAlarm">RandomAlarm™</ListLink>
-                <ListLink to="/contact">Contact</ListLink>
+                <ListLink to="/" page={page}>Home</ListLink>
+                <ListLink to="/about" page={page}>About</ListLink>
+                <ListLink to="/services" page={page}>Services</ListLink>
+                <ListLink to="/randomAlarm" page={page}>RandomAlarm™</ListLink>
+                <ListLink to="/contact" page={page}>Contact</ListLink>
             
         </Nav>
         </Navbar>
