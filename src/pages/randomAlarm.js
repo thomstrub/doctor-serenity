@@ -16,7 +16,7 @@ export default function Contact() {
             crossorigin="anonymous"
           />
     </Helmet>
-    <Layout>
+    <Layout page="randomAlarm">
     Random Alarm
     <footer id="footer">
     </footer>

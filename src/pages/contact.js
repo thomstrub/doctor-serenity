@@ -17,7 +17,7 @@ export default function Contact() {
             crossorigin="anonymous"
           />
     </Helmet>
-    <Layout>
+    <Layout page="Contact">
     <div className="container-md" style={{marginBottom: "50px", marginTop: "50px"}}>
     <h1 className="display-3">Get in touch to begin your journey.</h1>
     </div>

@@ -20,7 +20,7 @@ export default function About() {
             crossorigin="anonymous"
           />
       </Helmet>
-      <Layout>
+      <Layout page="About">
       <div id="page-container">
 
       <Hero image="_Images/inner_peace.png" blurb="Forget the mistake. Remember the lesson." />

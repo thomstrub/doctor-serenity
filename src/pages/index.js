@@ -25,7 +25,7 @@ export default function Home() {
             crossorigin="anonymous"
           />
         </Helmet>
-    <Layout>
+    <Layout page="Home">
     <div  id="page-container">
 
         <section className="row-grey-bg">

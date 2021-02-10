@@ -30,7 +30,7 @@ export default function Header() {
                 <ListLink to="/">Home</ListLink>
                 <ListLink to="/about">About</ListLink>
                 <ListLink to="/services">Services</ListLink>
-                <ListLink to="/randomAlarm">Random Alarm</ListLink>
+                <ListLink to="/randomAlarm">RandomAlarm™</ListLink>
                 <ListLink to="/contact">Contact</ListLink>
             
         </Nav>
