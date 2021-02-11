@@ -47,8 +47,7 @@ export default function Contact() {
             <Services/>
             <Services/>
             <Services/>
-        </section>
-        <section className="row-grey-bg" style={{marginBottom: "0"}}>
+        
             <Stressball page={state.page}/>
         </section>
     <footer id="footer">
