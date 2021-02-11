@@ -6,12 +6,13 @@ export default function Services(){
         <div className="container" style={{padding: "50px"}}>
             <div className="row">
                 <div className="col-md-5 offset-md-2">
-                    <h2 className="session-text">Book a session today and receive a free Dr. Serenity™ stress ball!</h2>
-                    <p className="small caption session-text">Stress balls are a proven way to reduce stress!</p>
-                    <a className="btn btn-primary session-button" href="#" role="button">Book a session now</a>
+                    <img src="_Images/ted.png" alt="TED talk" className="img-fluid"/>
+                    
                 </div>
                 <div className="col-md-3">
-                    <img src="_Images/stressball.png" alt="Stressball" className="img-fluid"/>
+                <h2 className="session-text">Motivational Speaking</h2>
+                    <p className="small caption session-text">I’ve given lots of life advice to most people I meet. My dream is to speak at a TED Conference LLC. Although I don’t have formal experience in motivational speaking, you can count on me to engage with any audience and give great Life Coaching advice.</p>
+                    
                 </div>
 
             </div>
