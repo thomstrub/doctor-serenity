@@ -5,6 +5,7 @@ import Icon from "../components/icon/icon"
 import {Helmet} from "react-helmet"
 import Hero from "../components/hero/hero"
 import Stressball from "../components/stressball/stressball"
+import Services from "../components/services/services"
 
 
 
@@ -40,6 +41,9 @@ export default function Contact() {
           </div>
         </div>
         {/* container */}
+        </section>
+        <section className="row-grey-bg" style={{marginBottom: "0"}}>
+            <Services/>
         </section>
         <section className="row-grey-bg" style={{marginBottom: "0"}}>
             <Stressball page={state.page}/>
