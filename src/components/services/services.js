@@ -1,7 +1,7 @@
 import React from 'react';
 import "./services.css"
 
-export default function Services(){
+export default function Services({title, text}){
     return(
         <div className="container" style={{padding: "50px"}}>
             <div className="row">
@@ -10,8 +10,8 @@ export default function Services(){
                     
                 </div>
                 <div className="col-md-6">
-                <h2 className="services-header">Motivational Speaking</h2>
-                    <p className="services-text">I’ve given lots of life advice to most people I meet. My dream is to speak at a TED Conference LLC. Although I don’t have formal experience in motivational speaking, you can count on me to engage with any audience and give great Life Coaching advice.</p>
+                <h2 className="services-header">{title}</h2>
+                    <p className="services-text">{text}</p>
                     
                 </div>
 
