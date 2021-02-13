@@ -2,6 +2,7 @@ import React from "react"
 import './index.css'
 import Layout from "../components/layout"
 import {Helmet} from "react-helmet"
+import Hero from "../components/hero/hero"
 
 export default function Contact() {
   return (
@@ -17,7 +18,7 @@ export default function Contact() {
           />
     </Helmet>
     <Layout page="RandomAlarm™">
-    Random Alarm
+    <Hero image='_Images/business.jpg' blurb="Expose yourself to as much randomness as possible."/>
     <footer id="footer">
     </footer>
     </Layout>
