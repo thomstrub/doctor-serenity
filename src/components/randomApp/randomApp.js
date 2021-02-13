@@ -1,7 +1,7 @@
 import React from "react";
 import "./randomApp.css"
 
-export default function RandomAlarmBlurb(){
+export default function RandomApp(){
     return(
         <div className="container">
             <div className="row">
@@ -12,7 +12,7 @@ export default function RandomAlarmBlurb(){
                 <div className="col-md-5">
                     <h3>Harness the power of random</h3>
                     <p>
-                    I incorporate my proprietary start-and-stop task management system into all of my coaching techniques. Download today to get started now.
+                    I have innovated three proprietary methods that coordinate with each measured success. Together, they are called RandomAlarm™.
                     </p>
                     <img src="_Images/btn-download.png" className="img-fluid" alt="Download Random Alarm"/>
                 </div>

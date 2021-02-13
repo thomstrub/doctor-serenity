@@ -3,6 +3,8 @@ import './index.css'
 import Layout from "../components/layout"
 import {Helmet} from "react-helmet"
 import Hero from "../components/hero/hero"
+import RandomApp from "../components/randomApp/randomApp"
+import RandomAlarmBlurb from "../components/randomAlarmBlurb/randomAlarmBlurb"
 
 export default function Contact() {
   return (
@@ -18,7 +20,8 @@ export default function Contact() {
           />
     </Helmet>
     <Layout page="RandomAlarm™">
-    <Hero image='_Images/business.jpg' blurb="Expose yourself to as much randomness as possible."/>
+        <Hero image='_Images/business.jpg' blurb="Expose yourself to as much randomness as possible."/>
+        <RandomApp />
     <footer id="footer">
     </footer>
     </Layout>
