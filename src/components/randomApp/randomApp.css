@@ -1,4 +1,4 @@
-h3{
+.title{
     margin-top: 5vw;
     font-family: Merriweather;
     font-style: normal;
@@ -8,7 +8,7 @@ h3{
     text-align: center;
 }
 
-p{
+.app-text{
     margin: 3vw 0 3vw 0;
     font-family: Helvetica;
     font-style: normal;

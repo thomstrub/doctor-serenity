@@ -10,8 +10,8 @@ export default function RandomApp(){
                 </div>
 
                 <div className="col-md-6 offset-1">
-                    <h3>Harness the power of random</h3>
-                    <p>
+                    <h3 className="title">Harness the power of random</h3>
+                    <p className="app-text">
                     I have innovated three proprietary methods that coordinate with each measured success. Together, they are called RandomAlarm™.
                     </p>
                     <img src="_Images/btn-download.png" className="img-fluid" alt="Download Random Alarm"/>
