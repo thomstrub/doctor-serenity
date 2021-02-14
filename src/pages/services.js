@@ -33,7 +33,7 @@ export default function Contact() {
         <div className="container">
           <div className="row">
             <div className="container">
-              <h2>Coaching Techniques</h2>
+              <h2 className="h2heading">Coaching Techniques</h2>
             </div>
             <Icon content="Persistent Goading" page={state.page}/>
             <Icon content="RandomAlarm™" page={state.page}/>

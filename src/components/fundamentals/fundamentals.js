@@ -3,6 +3,7 @@ import "./fundamentals.css"
 
 export default function Fundamentals(){
     return(
+        <section className="row-grey-bg">
         <div className="container" style={{padding: "50px"}}>
             <div className="row">
                 <div className="col-md-6 offset-md-1">
@@ -18,5 +19,6 @@ export default function Fundamentals(){
 
             </div>
         </div>
+        </section>
     )
 }
