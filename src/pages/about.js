@@ -27,12 +27,12 @@ export default function About() {
 
       <section>
         <div className="container">
-        <div className="row">
+        <div className="row padding-div">
           <div className="col-md-3 offset-md-2">
-            <img src="_Images/i-am-dr-serenity.png" alt="Dr. Serenity" className="img-fluid"/>
+            <img src="_Images/i-am-dr-serenity.png" alt="Dr. Serenity" className="serenity-photo"/>
           </div>
-          <div className="col-md-5">
-            <h2>I’m Dr. Serenity™</h2>
+          <div className="col-md-5 offset-1" >
+            <h2 style={{marginBottom: "30px"}}>I’m Dr. Serenity™</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, erat cras ante erat imperdiet eget augue quis a. Volutpat tincidunt fermentum, lobortis purus sed amet. Nibh elementum arcu scelerisque interdum. Netus in id libero leo sed penatibus.
             </p>
@@ -46,7 +46,7 @@ export default function About() {
       <div className="container">
       <div className="row">
         <div className="container">
-          <h2>I’m accredited in many areas.</h2>
+          <h2 className="h2heading">I’m accredited in many areas.</h2>
         </div>
 
         <Accredation 

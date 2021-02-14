@@ -3,7 +3,7 @@ import "./randomAlarmBlurb.css"
 
 export default function RandomAlarmBlurb({title}){
     return(
-        <div className="container">
+        <div className="container alarm-container">
             <div className="row">
                 <div className="col-md-5 offset-md-1">
                     <img src="_Images/randomalarm-screenshot-left.png" className="img-fluid" alt="Random Alarm"/>

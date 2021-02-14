@@ -45,7 +45,7 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="container">
-              <h2>Here are just a few areas Dr. Serenity™  specializes in.</h2>
+              <h2 className="h2heading">Here are just a few areas Dr. Serenity™  specializes in.</h2>
             </div>
             <Icon content="Well-being" page={state.page}/>
             <Icon content="Productivity" page={state.page}/>
