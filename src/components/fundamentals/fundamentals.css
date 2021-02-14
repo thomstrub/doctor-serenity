@@ -4,9 +4,10 @@ h2{
     font-weight: bold;
     font-size: 28px;
     line-height: 35px;
+    text-align: left;
 }
 
-p{
+.fundamentals{
     font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
