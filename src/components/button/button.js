@@ -8,6 +8,7 @@ export default function Button({text}){
                 className="teal-button btn btn-primary session-button " 
                 href="#" 
                 role="button">{text}
+                
              </a>
         </div>
     )

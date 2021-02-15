@@ -1,6 +1,9 @@
 .image{
     height: 450px;
     width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section{
@@ -10,5 +13,5 @@ section{
 }
 
 .hero{
-    margin: 10vw 0 0 10vw;
+   
 }
