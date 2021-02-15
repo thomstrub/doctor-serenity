@@ -41,7 +41,7 @@ export default function Contact() {
         </div>
         {/* container */}
         </section>
-        <section>
+        <section className="row-grey-bg">
             <div className="container" style={{padding: "50px"}}>
                 <div className="row">
                     <div className="col-md-5 offset-md-1">
@@ -53,6 +53,19 @@ export default function Contact() {
                         <p className="services-text">I was inspired by technology and the nature of randomness to create RandomAlarm™. Harness the un-harnessed power of randomness to achieve your ultimate goals.</p>
                         
                     </div>
+
+                </div>
+            </div>
+        </section>
+        <section >
+            <div className="container" style={{padding: "50px"}}>
+                <div className="row">
+                    <div className="col-md-6 offset-md-3">
+                    <h2 className="h2heading">What are you waiting for? Download RandomAlarm™ today.</h2>
+                        <img src="_Images/btn-download.png" alt="download" className="img-fluid"/>
+                        
+                    </div>
+                    
 
                 </div>
             </div>
