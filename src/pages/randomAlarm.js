@@ -34,9 +34,9 @@ export default function Contact() {
             <div className="container">
               <h2 className="h2heading">Coaching Techniques</h2>
             </div>
-            <Icon content="Persistent Goading" page={state.page} icon="_Images/icon-work.svg"/>
-            <Icon content="RandomAlarm™" page={state.page} icon="_Images/icon-work.svg"/>
-            <Icon content="Relentless Advice" page={state.page} icon="_Images/icon-work.svg"/>
+            <Icon content="RandomNap™" page={state.page} icon="_Images/icon-sleep.svg"/>
+            <Icon content="RandomTask™" page={state.page} icon="_Images/icon-work.svg"/>
+            <Icon content="RandomNourish™" page={state.page} icon="_Images/icon-eat.svg"/>
           </div>
         </div>
         {/* container */}
