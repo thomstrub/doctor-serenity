@@ -47,10 +47,10 @@ export default function Home() {
             <div className="container">
               <h2 className="h2heading">Here are just a few areas Dr. Serenity™  specializes in.</h2>
             </div>
-            <Icon content="Well-being" page={state.page}/>
-            <Icon content="Productivity" page={state.page}/>
-            <Icon content="Finding Purpose" page={state.page}/>
-            <Icon content="Relationships" page={state.page}/>
+            <Icon content="Well-being" page={state.page} icon="_Images/icon-work.svg"/>
+            <Icon content="Productivity" page={state.page} icon="_Images/icon-work.svg"/>
+            <Icon content="Finding Purpose" page={state.page} icon="_Images/icon-work.svg"/>
+            <Icon content="Relationships" page={state.page} icon="_Images/icon-work.svg"/>
           </div>
         </div>
         {/* container */}
