@@ -41,6 +41,22 @@ export default function Contact() {
         </div>
         {/* container */}
         </section>
+        <section>
+            <div className="container" style={{padding: "50px"}}>
+                <div className="row">
+                    <div className="col-md-5 offset-md-1">
+                        <img src="_Images/alarm-clock.png" alt="alarm clock" className="img-fluid"/>
+                        
+                    </div>
+                    <div className="col-md-6">
+                    <h2 className="services-header">Inspired by technology</h2>
+                        <p className="services-text">I was inspired by technology and the nature of randomness to create RandomAlarm™. Harness the un-harnessed power of randomness to achieve your ultimate goals.</p>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <footer id="footer">
         </footer>
     </Layout>
