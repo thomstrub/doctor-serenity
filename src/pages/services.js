@@ -6,7 +6,7 @@ import {Helmet} from "react-helmet"
 import Hero from "../components/hero/hero"
 import Stressball from "../components/stressball/stressball"
 import Services from "../components/services/services"
-
+import Button from "../components/button/button"
 
 
 export default function Contact() {
@@ -38,6 +38,11 @@ export default function Contact() {
             <Icon content="Persistent Goading" page={state.page} icon="_Images/icon-work.svg"/>
             <Icon content="RandomAlarm™" page={state.page} icon="_Images/icon-work.svg"/>
             <Icon content="Relentless Advice" page={state.page} icon="_Images/icon-work.svg"/>
+          </div>
+          <div className="row">
+            <div className="col-md-2 offset-4">
+                <Button text="Contact me"/>
+            </div>
           </div>
         </div>
         {/* container */}
