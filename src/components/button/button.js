@@ -3,7 +3,13 @@ import "./button.css"
 
 export default function Button({text}){
     return(
-        <a className="btn btn-primary session-button teal-button" href="#" role="button">{text}</a>
+        <div className="col-md-3">
+             <a 
+                className="teal-button btn btn-primary session-button " 
+                href="#" 
+                role="button">{text}
+             </a>
+        </div>
     )
 }
 
