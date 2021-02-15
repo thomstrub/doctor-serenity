@@ -35,9 +35,24 @@ export default function Contact() {
             <div className="container">
               <h2 className="h2heading">Coaching Techniques</h2>
             </div>
-            <Icon content="Persistent Goading" page={state.page} icon="_Images/icon-work.svg"/>
-            <Icon content="RandomAlarm™" page={state.page} icon="_Images/icon-work.svg"/>
-            <Icon content="Relentless Advice" page={state.page} icon="_Images/icon-work.svg"/>
+            <Icon 
+                title="Persistent Goading" 
+                content="Accountability is key. Nothing gets you motivated more than peristent texts, phone calls, and emails from your personal coach."
+                page={state.page} 
+                icon="_Images/icon-work.svg"   
+            />
+            <Icon 
+                title="RandomAlarm™" 
+                content="I incorporate my proprietary start-and-stop task management system into all of my coaching techniques. Harness the power of random."
+                page={state.page} 
+                icon="_Images/icon-work.svg"
+            />
+            <Icon 
+                title="Relentless Advice"
+                content="If you're not asking for advice, you probably need it. We'll establish an open line of communication for you to get advice 24 hours a day!" 
+                page={state.page} 
+                icon="_Images/icon-work.svg"
+            />
           </div>
           <div className="row">
             <div className="col-md-4 offset-3" style={{display: "flex", justifyContent: "center"}}>
