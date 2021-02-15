@@ -40,8 +40,8 @@ export default function Contact() {
             <Icon content="Relentless Advice" page={state.page} icon="_Images/icon-work.svg"/>
           </div>
           <div className="row">
-            <div className="col-md-2 offset-4">
-                <Button text="Contact me"/>
+            <div className="col-md-3 offset-md-4" style={{margin: "0 3vw 0 3vw"}}>
+                <Button  text="Contact me"/>
             </div>
           </div>
         </div>

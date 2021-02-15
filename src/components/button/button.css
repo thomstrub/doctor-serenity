@@ -1,5 +1,14 @@
-.button{
+.teal-button{
+    padding: 20px auto;
     margin: 2vw auto;
     background-color: #5FB1AD;
     border-radius: 6px;
+    font-family: Merriweather;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-align: center;
 }
