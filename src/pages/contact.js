@@ -3,6 +3,7 @@ import './index.css'
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import {Helmet} from "react-helmet"
+import Hero from "../components/hero/hero"
 
 export default function Contact() {
   return (
@@ -18,8 +19,9 @@ export default function Contact() {
           />
     </Helmet>
     <Layout page="Contact">
+    <Hero image='_Images/beach.png' blurb="There is peace even in the storm."/>
     <div className="container-md" style={{marginBottom: "50px", marginTop: "50px"}}>
-    <h1 className="display-3">Get in touch to begin your journey.</h1>
+    <h2 className="h2heading">Get in touch to begin your journey.</h2>
     </div>
     <div className="container" style={{marginBottom: "100px", marginTop: "50px"}}>
         <form className="email">
@@ -38,7 +40,7 @@ export default function Contact() {
                 </select>
             </div>
             <div className="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
+                <label for="exampleFormControlTextarea1">Complaint</label>
                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
             </div>
             <button type="button" className="btn btn-primary btn-lg">Submit</button>

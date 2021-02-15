@@ -27,7 +27,16 @@ export default function Home() {
         </Helmet>
     <Layout page="Home">
     <div  id="page-container">
+        <section className="container-fluid" style={{background: "url('_Images/water.jpg') no-repeat center" }} >
+            <div className="row">
+            <div className="col-md-6 offset-5" style={{minHeight: "300px", display: "flex", }}>
+            <div className="container-fluid image">
+              <h2 className="hero" style={{color: "black"}}>Do you need help getting your life <strong>together</strong>? Look no further.</h2>
+            </div>
+          </div>
+          </div>
 
+        </section>
         <section className="row-grey-bg">
         <div className="container">
           <div className="row">
