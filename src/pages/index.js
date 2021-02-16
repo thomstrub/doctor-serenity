@@ -28,13 +28,13 @@ export default function Home() {
         </Helmet>
     <Layout page="Home">
     <div  id="page-container">
-        <section className="container-fluid" style={{background: "url('_Images/water.jpg') no-repeat center", height: "100%" }} >
+        <section className="container-fluid" style={{background: "url('_Images/water.jpg') no-repeat center", height: "100%", padding: "30px 0 -5 0"}} >
             <div className="row">
               <div className="hero-row">
 
               
               <div className="col-md-3 offset-md-1">
-                    <img style={{maxHeight: "32vw", marginTop:"20px"}} className="image  the_doctor" src="_Images/the_doctor.png" className="img-fluid" alt="Doctor Serenity"/>
+                    <img style={{maxHeight: "32vw", minHeight: "300px", marginTop:"20px", borderRadius: "6px"}} className="image  the_doctor" src="_Images/the_doctor.png" className="img-fluid" alt="Doctor Serenity"/>
                 </div>
             <div className="col-md-6 offset-1" style={{minHeight: "300px", display: "flex", }}>
           
@@ -101,7 +101,7 @@ export default function Home() {
         <div className="container">
         <div className="row">
           <div className="container">
-            <h2>Don’t take my word for it. See what some of my clients have to say.</h2>
+            <h2 className="h2heading">Don’t take my word for it. See what some of my clients have to say.</h2>
           </div>
           <Testimonial name="Tara S." image="_Images/testimonial-tara.jpeg" blurb="I’m sleeping less than ever due to Dr. Serenity™’s RandomAlarm™! I’m really tired all the time but oddly still able to function. It really works!"/>
           <Testimonial name="Theresa S." image="_Images/testimonial-theresa.jpeg" blurb="Dr. Serenity™’s persistent nagging really gets me motivated. Yet he somehow has a calming effect on me, but that could just be all the magnesium."/>
