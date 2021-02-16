@@ -5,7 +5,7 @@ export default function Accredation({blurb, name, image, caption}){
     return(
         <div className="col-md-4 div-column">
             <img src={image} alt={name} className="img-fluid"/>
-            <h3>{name}</h3>
+            <h3 className="accredation-name">{name}</h3>
             <p>
             {blurb}
             </p>

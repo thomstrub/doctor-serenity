@@ -32,7 +32,7 @@ export default function About() {
             <img src="_Images/i-am-dr-serenity.png" alt="Dr. Serenity" className="serenity-photo"/>
           </div>
           <div className="col-md-5 offset-1" >
-            <h2 style={{marginBottom: "30px"}}>I’m Dr. Serenity™</h2>
+            <h2 className="h2heading" style={{textAlign: "left", marginBottom: "30px"}}>I’m Dr. Serenity™</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, erat cras ante erat imperdiet eget augue quis a. Volutpat tincidunt fermentum, lobortis purus sed amet. Nibh elementum arcu scelerisque interdum. Netus in id libero leo sed penatibus.
             </p>
