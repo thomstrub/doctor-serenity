@@ -1,5 +1,5 @@
 .h2heading {
-    margin: 0 0 60px 0;
+    margin: 40px 0 60px 0;
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
@@ -19,10 +19,7 @@
     text-align: center;
   
   }
-  section {
-      
-      padding: 80px 0 80px 0;
-  }
+ 
   .hero-img {
     background-image: url("../../public/_Images/inner_peace.png");
     background-repeat: no-repeat;
@@ -72,11 +69,14 @@ p {
   #home-quote {
     font-style: italic;
     font-weight: normal;
+    margin: 40px 0 40px 0;
   }
 
   .row-grey-bg {
     background: #E7EBEF;
-    padding: 40px;
+    width: 100%;
+    height: 100%;
+    
 
   }
 
