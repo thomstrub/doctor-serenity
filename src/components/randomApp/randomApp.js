@@ -3,7 +3,7 @@ import "./randomApp.css"
 
 export default function RandomApp(){
     return(
-        <div className="container">
+        <div className="container random-padding">
             <div className="row">
                 <div className="col-md-3 offset-1">
                     <img src="_Images/randomalarm-app.jpg" className="img-fluid" alt="Random Alarm"/>
