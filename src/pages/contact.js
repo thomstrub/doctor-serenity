@@ -46,8 +46,6 @@ export default function Contact() {
             <button type="button" className="btn btn-primary btn-lg">Submit</button>
         </form>
     </div>
-    <footer id="footer">
-    </footer>
     </Layout>
     </>
     

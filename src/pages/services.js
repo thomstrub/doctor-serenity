@@ -79,8 +79,7 @@ export default function Contact() {
         <section className="row" style={{marginBottom: "0"}}>
             <Stressball page={state.page}/>
         </section>
-    <footer id="footer">
-    </footer>
+   
     </Layout>
     </>
     

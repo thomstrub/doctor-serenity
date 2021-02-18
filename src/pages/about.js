@@ -74,7 +74,7 @@ export default function About() {
       <RandomAlarmBlurb title="Inventor of RandomAlarm™" />
       </section>
 
-      <footer id="footer"></footer>
+      
 
       </div>
       </Layout>
