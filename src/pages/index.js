@@ -7,7 +7,7 @@ import Testimonial from '../components/testimonial/testimonial'
 import RandomAlarmBlurb from '../components/randomAlarmBlurb/randomAlarmBlurb'
 import Stressball from '../components/stressball/stressball'
 import Button from '../components/button/button'
-
+import Footer from '../components/footer/footer'
 
 
 export default function Home() {
@@ -116,7 +116,7 @@ export default function Home() {
             <Stressball />
         </section>
 
-      {/* footer   */}
+      <Footer />
 
       </div>
         {/* page conatiner */}
