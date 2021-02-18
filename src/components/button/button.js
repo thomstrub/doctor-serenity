@@ -1,15 +1,21 @@
 import React from "react";
 import "./button.css"
+import {Button} from 'react-bootstrap'
+import {Link} from 'gatsby'
 
-export default function Button({text}){
+export default function ButtonElem({text}){
     return(
         <div className="col-md-3">
-             <a 
-                className="teal-button btn btn-primary session-button " 
-                href="#" 
-                role="button">{text}
-                
-             </a>
+            <Button
+                as="Link"
+                to="/"
+                variant="info"
+                size="lg"
+                className="teal-button session-button"
+            >
+                {text}
+            </Button>
+             
         </div>
     )
 }
