@@ -116,7 +116,7 @@ export default function Home() {
             <Stressball />
         </section>
 
-        <footer id="footer"></footer>
+      {/* footer   */}
 
       </div>
         {/* page conatiner */}
