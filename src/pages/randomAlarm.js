@@ -70,8 +70,7 @@ export default function Contact() {
                 </div>
             </div>
         </section>
-        <footer id="footer">
-        </footer>
+        
     </Layout>
     </>
     
