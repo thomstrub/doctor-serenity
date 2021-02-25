@@ -23,7 +23,10 @@ export default function About() {
       <Layout page="About">
       <div id="page-container">
 
-      <Hero image="_Images/inner_peace.png" blurb="Forget the mistake. Remember the lesson." />
+      <Hero 
+        image="_Images/aziz-acharki-2fgnVgsm5uM-unsplash.png" 
+        blurb="If your dreams don’t scare you, they’re too small." 
+      />
 
       <section>
         <div className="container">
