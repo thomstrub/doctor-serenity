@@ -70,24 +70,24 @@ export default function Home() {
             </div>
             <Icon 
               title="Well-being" 
-              content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien." 
+              content="Well-being, also known as wellness, prudential value or quality of life, refers to what is intrinsically valuable relative to someone." 
               page={state.page} 
-              icon="_Images/icon-work.svg"/>
+              icon="_Images/svg/Well-being@2x.png"/>
             <Icon 
               title="Productivity" 
-              content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien." 
+              content="We often assume that productivity means getting more things done each day. WRONG! Productivity is getting important things done constantly." 
               page={state.page} 
-              icon="_Images/icon-work.svg"/>
+              icon="_Images/svg/Productivity.svg"/>
             <Icon 
-              title="Finding Purpose"
-              content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien." 
+              title="Bad Habits"
+              content="Breaking habits can be difficult, especially if you’ve been engaging in them for a long time. But understanding how habits form in the first place can easve the process."
               page={state.page} 
-              icon="_Images/icon-work.svg"/>
+              icon="_Images/svg/Bad_habits.svg"/>
             <Icon 
               title="Relationships" 
-              content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ut adipiscing semper magna at. Lectus viverra sapien." 
+              content="All relationships go through ups and downs and they all take work, commitment, and a willingness to adapt and change with your partner. "
               page={state.page} 
-              icon="_Images/icon-work.svg"/>
+              icon="_Images/svg/Relationships.svg"/>
           </div>
         </div>
         {/* container */}
@@ -100,13 +100,14 @@ export default function Home() {
         <section>
         <div className="container">
         <div className="row">
-          <div className="container">
+          <div className="col-md-6 offset-3">
             <h2 className="h2heading">Don’t take my word for it. See what some of my clients have to say.</h2>
           </div>
+          <div className="row">
           <Testimonial name="Tara S." image="_Images/testimonial-tara.jpeg" blurb="I’m sleeping less than ever due to Dr. Serenity™’s RandomAlarm™! I’m really tired all the time but oddly still able to function. It really works!"/>
           <Testimonial name="Theresa S." image="_Images/testimonial-theresa.jpeg" blurb="Dr. Serenity™’s persistent nagging really gets me motivated. Yet he somehow has a calming effect on me, but that could just be all the magnesium."/>
           <Testimonial name="Tiffany S." image="_Images/testimonial-tiffany.jpg" blurb="After participating in Dr. Serenity™’s Proprietary Dress for Serenity™ Program, I look and feel more serene than ever. I feel confident in whatever I wear."/>
-
+          </div>
         </div>
         </div>
         {/* container */}
