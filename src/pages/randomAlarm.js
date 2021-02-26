@@ -6,7 +6,7 @@ import Hero from "../components/hero/hero"
 import RandomApp from "../components/randomApp/randomApp"
 import RandomAlarmBlurb from "../components/randomAlarmBlurb/randomAlarmBlurb"
 import Fundamentals from "../components/fundamentals/fundamentals"
-import Icon from "../components/icon/icon"
+import AlarmDetails from "../components/alarmDetails/alarmDetails"
 
 export default function Contact() {
     const [state, setState] = useState({
@@ -28,34 +28,7 @@ export default function Contact() {
         <Hero image='_Images/business.jpg' blurb="Expose yourself to as much randomness as possible."/>
         <RandomApp />
         <Fundamentals />
-        <section>
-        <div className="container">
-          <div className="row">
-            <div className="container">
-              <h2 className="h2heading">RandomAlarm™</h2>
-            </div>
-            <Icon 
-              title="RandomNap™"
-              content="RandomAlarm™ gently notifies you at random times throughout the day when you should take a nap or wake from restfulness. Frequent naps lead to frequent productivity and well-being." 
-              page={state.page} 
-              icon="_Images/icon-sleep.svg"
-              />
-            <Icon 
-            title="RandomTask™"
-            content="Starting and stopping work at random times throughout the day may seem counterintuitive, but Dr. Serenity’s informal research has proven otherwise. RandomAlarm™ will help." 
-            page={state.page} 
-            icon="_Images/icon-work.svg"
-            />
-            <Icon 
-            title="RandomNourish™"
-            content="RandomAlarm™ tells you when to eat based on random science. Not eating on a set schedule keeps your blood sugar at random levels throughout the day." 
-            page={state.page} 
-            icon="_Images/icon-eat.svg"
-            />
-          </div>
-        </div>
-        {/* container */}
-        </section>
+        <AlarmDetails state={state}/>
         <section className="row-grey-bg">
             <div className="container" style={{padding: "50px"}}>
                 <div className="row">
