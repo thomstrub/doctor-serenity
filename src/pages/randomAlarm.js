@@ -29,6 +29,7 @@ export default function Contact() {
         <RandomApp />
         <Fundamentals />
         <AlarmDetails state={state}/>
+        
         <section className="row-grey-bg">
             <div className="container" style={{padding: "50px"}}>
                 <div className="row">
