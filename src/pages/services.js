@@ -63,11 +63,7 @@ export default function Contact() {
         {/* container */}
         </section>
         <section className="row-grey-bg" style={{marginBottom: "0"}}>
-            <Services 
-                title="One-on-One Personal Coaching" 
-                image=""
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam arcu bibendum egestas felis risus quis arcu et dictumst. Aliquam sit ornare et aliquet. Enim ut habitant felis non dolor. Aenean euismod leo nunc arcu sed ornare. Paired with RandomAlarm™, this is a sure-fire method to get your life back on track."
-                />
+    
             <Services 
                 title="Text Coaching"
                 image="" 
@@ -78,7 +74,9 @@ export default function Contact() {
                 image="" 
                 text="I’ve given lots of life advice to most people I meet. My dream is to speak at a TED Conference LLC. Although I don’t have formal experience in motivational speaking, you can count on me to engage with any audience and give great Life Coaching advice."
             />
-            <Services title="Style coaching: Dress for Deeper Serenity"
+            <Services 
+                title="Style coaching: Dress for Deeper Serenity"
+                image=""
                 text="The power of clothes: what you wear affects your emotions. Dress like a champion to feel like a champion. I’ll help you hone in on your unique style and truly express yourself."
             />
         </section>
