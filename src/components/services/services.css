@@ -16,3 +16,9 @@
     line-height: 28px;
     text-align: left;
 }
+
+.services-img{
+    width: 300.5px;
+    height: 200px;
+    border-radius: 4px;
+}

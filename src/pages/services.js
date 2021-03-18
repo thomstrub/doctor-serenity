@@ -66,17 +66,17 @@ export default function Contact() {
     
             <Services 
                 title="Text Coaching"
-                image="" 
+                image="_Images/text_coaching.png" 
                 text="Are you too poor to afford regular coaching? I’m also available for text coaching. Paired with RandomAlarm™, this is a fool-proof method to get your life back on track."
             />
             <Services 
                 title="Motivational Speaking"
-                image="" 
+                image="_Images/ted.png" 
                 text="I’ve given lots of life advice to most people I meet. My dream is to speak at a TED Conference LLC. Although I don’t have formal experience in motivational speaking, you can count on me to engage with any audience and give great Life Coaching advice."
             />
             <Services 
                 title="Style coaching: Dress for Deeper Serenity"
-                image=""
+                image="_Images/style_coaching.png"
                 text="The power of clothes: what you wear affects your emotions. Dress like a champion to feel like a champion. I’ll help you hone in on your unique style and truly express yourself."
             />
         </section>

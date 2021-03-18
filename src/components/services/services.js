@@ -1,12 +1,12 @@
 import React from 'react';
 import "./services.css"
 
-export default function Services({title, text}){
+export default function Services({title, text, image}){
     return(
         <div className="container" style={{padding: "50px"}}>
             <div className="row">
                 <div className="col-md-5 offset-md-1">
-                    <img src="_Images/ted.png" alt="TED talk" className="img-fluid"/>
+                    <img src={image} alt="TED talk" className="services-img"/>
                     
                 </div>
                 <div className="col-md-6">
