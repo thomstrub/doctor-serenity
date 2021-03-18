@@ -8,7 +8,7 @@ export default function Hero({image, blurb}){
           <div className="row">
           <div className="col" style={{minHeight: "300px", display: "flex", }}>
           <div className="container-fluid image">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <h2 className="hero">{blurb}</h2>
             </div>
             
