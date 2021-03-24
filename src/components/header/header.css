@@ -1,8 +1,12 @@
 .link{
-    margin: 40px 5px 0 15px;
+    margin: 30px 5px 0px 15px;
 }
 
 .header{
-    max-height: 10vw;
-    min-height: 130px;
+    max-height: 80px;
+    
+}
+
+.nav-links{
+    margin-top: -10px;
 }

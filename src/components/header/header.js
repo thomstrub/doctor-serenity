@@ -20,12 +20,12 @@ export default function Header({page}) {
             <img
                 alt=""
                 src="_Images/logo.jpg"
-                width="300"
+                width="110 px"
                 
                 className="d-inline-block"
             />{' '}
             </Navbar.Brand>
-            <Nav className="justify-content-end">
+            <Nav className="justify-content-end nav-links">
             
                 <ListLink to="/" page={page}>Home</ListLink>
                 <ListLink to="/about" page={page}>About</ListLink>
