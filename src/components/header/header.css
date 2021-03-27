@@ -3,7 +3,8 @@
 }
 
 .header{
-    max-height: 80px;
+    /* "section" tags are giving this 80px padding for some reason */
+    max-height: 20px;
     
 }
 

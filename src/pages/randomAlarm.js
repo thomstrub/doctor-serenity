@@ -31,7 +31,7 @@ export default function Contact() {
         <AlarmDetails state={state}/>
         
         <section className="row-grey-bg">
-            <div className="container" style={{padding: "50px"}}>
+            <div className="container" >
                 <div className="row">
                     <div className="col-md-5 offset-md-1">
                         <img src="_Images/alarm-clock.png" alt="alarm clock" className="img-fluid"/>
@@ -47,7 +47,7 @@ export default function Contact() {
             </div>
         </section>
         <section >
-            <div className="container" style={{padding: "50px"}}>
+            <div className="container" >
                 <div className="row">
                     <div className="col-md-6 offset-md-3">
                     <h2 className="h2heading">What are you waiting for? Download RandomAlarm™ today.</h2>
