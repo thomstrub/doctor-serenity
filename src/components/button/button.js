@@ -7,8 +7,7 @@ export default function ButtonElem({text}){
     return(
         <div className="col-md-3">
             <Button
-                as="Link"
-                to="/"
+                
                 variant="info"
                 size="lg"
                 className="teal-button session-button"
