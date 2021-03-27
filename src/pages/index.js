@@ -28,7 +28,7 @@ export default function Home() {
         </Helmet>
     <Layout page="Home">
     <div  id="page-container">
-        <section className="container-fluid" style={{background: "url('_Images/water.jpg') no-repeat center", height: "100%", padding: "30px 0 -5 0"}} >
+        <div className="container-fluid" style={{background: "url('_Images/water.jpg') no-repeat center", height: "100%", padding: "30px 0 -5 0"}} >
             <div className="row">
               <div className="hero-row">
 
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           </div>
 
-        </section>
+        </div>
         <section className="row-grey-bg">
         <div className="container">
           <div className="row">
