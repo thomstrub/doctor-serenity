@@ -3,7 +3,7 @@ import "./hero.css"
 
 export default function Hero({image, blurb}){
     return(
-        <section className="container-fluid" style={{background: `url(${image}) no-repeat center` }} >
+        <div className="container-fluid hero-container" style={{background: `url(${image}) no-repeat center` }} >
         
           <div className="row">
           <div className="col" style={{minHeight: "300px", display: "flex", }}>
@@ -16,6 +16,6 @@ export default function Hero({image, blurb}){
         </div>
         </div>
 
-      </section>
+      </div>
     )
 }

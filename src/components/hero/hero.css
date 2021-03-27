@@ -6,8 +6,7 @@
     justify-content: center;
 }
 
-section{
-    border: 1px solid magenta;
+.hero-container{
     width: 100%;
     display: flex;
     justify-content: center;
