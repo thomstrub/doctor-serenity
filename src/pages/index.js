@@ -6,9 +6,9 @@ import Icon from '../components/icon/icon'
 import Testimonial from '../components/testimonial/testimonial'
 import RandomAlarmBlurb from '../components/randomAlarmBlurb/randomAlarmBlurb'
 import Stressball from '../components/stressball/stressball'
-import Button from '../components/button/button'
+
 import Footer from '../components/footer/footer'
-import homeHero from '../components/homeHero/homeHero';
+import HomeHero from '../components/homeHero/homeHero';
 
 export default function Home() {
   const [state, setState] = useState({
@@ -29,7 +29,7 @@ export default function Home() {
     <Layout page="Home">
     <div  id="page-container">
 
-        <homeHero/>
+        <HomeHero />
         
         <section className="row-grey-bg">
         <div className="container">
