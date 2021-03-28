@@ -20,6 +20,7 @@ export default function About() {
             crossorigin="anonymous"
           />
       </Helmet>
+      
       <Layout page="About">
       <div id="page-container">
 
