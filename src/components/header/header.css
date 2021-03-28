@@ -1,5 +1,7 @@
 .link{
-    margin: 30px 5px 0px 15px;
+    margin: 0px 5px 0px 15px;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .header{
@@ -7,6 +9,3 @@
     
 }
 
-.nav-links{
-    margin-top: -10px;
-}
