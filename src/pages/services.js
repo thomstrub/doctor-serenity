@@ -28,7 +28,7 @@ export default function Contact() {
           />
     </Helmet>
     <Layout page="Services">
-        <Hero image='_Images/water.jpg' blurb="If your dreams don’t scare you, they’re too small."/>
+        <Hero image='_Images/svg/services_hero.svg' blurb="Forget the mistake. Remember the lesson."/>
         <section>
         <div className="container">
           <div className="row">
