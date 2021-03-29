@@ -2,3 +2,14 @@
     background-size: 100%;
     
 }
+
+.home-hero-blurb{
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(25px);
+}
+
+.hero-row{
+    /* display:inline-flex; */
+    justify-content: center;
+    align-items: center;
+  }

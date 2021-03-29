@@ -44,11 +44,7 @@
   line-height: 32px;
 }  
 
-.hero-row{
-  display:inline-flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .padding-div{
   padding: 80px 0 80px 0;
 }
