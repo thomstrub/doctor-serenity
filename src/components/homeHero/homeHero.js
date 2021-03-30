@@ -11,21 +11,27 @@ export default function HomeHero(){
               
             <div className="col-md-6 offset-5" style={{minHeight: "300px", display: "flex", }}>
             <div className="row hero-row">
-            <div className="col container-fluid home-hero-blurb">
-              <h2 className="hero" style={{color: "black"}}>Do you need help getting your life <strong>together</strong>? Look no further.</h2>
-              <p className="hero-sub">Let Dr. Serenity™ lead you through a life-changing journey with guaranteed* results.</p>
+            <div className="col container-fluid">
+                <div className="row">
+                    <div className="col">
+                        <div className="home-hero-blurb">
+                            <h2 className="hero" style={{color: "black"}}>Do you need help getting your life <strong>together</strong>? Look no further.</h2>
+                            <p className="hero-sub">Let Dr. Serenity™ lead you through a life-changing journey with guaranteed* results.</p>
+                            
+                            <p className="footnote">*not legally binding</p>
+                        </div>
+                    </div>
+                </div>
               
-              <p className="footnote">*not legally binding</p>
+                <div className="row">
+                    <div className="col">
+                        <Button text="Book a session now"/>
+                    </div>
+                </div>
             </div>
             
           </div>
-            <div className="row">
-            <div className="col">
-            <Button text="Book a session now"/>
-            </div>
-
             
-            </div>
           </div>
           </div>
 
