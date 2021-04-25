@@ -1,4 +1,4 @@
-h3{
+.random-alarm-blurb-header{
     margin: 40px 0 40px 0;
     font-family: Merriweather;
     font-style: normal;
@@ -7,7 +7,7 @@ h3{
     line-height: 25px;
     text-align: center;
   }
-  p {
+  .random-alarm-blurb-p {
     margin: 0 0 40px 0;
     font-family: Helvetica;
     font-style: normal;

@@ -4,7 +4,6 @@ import {Helmet} from "react-helmet";
 import Layout from "../components/layout";
 import Hero from "../components/hero/hero";
 import RandomApp from "../components/randomApp/randomApp";
-// import RandomAlarmBlurb from "../components/randomAlarmBlurb/randomAlarmBlurb"
 import Fundamentals from "../components/fundamentals/fundamentals";
 import AlarmDetails from "../components/alarmDetails/alarmDetails";
 
