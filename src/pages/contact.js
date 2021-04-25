@@ -1,9 +1,9 @@
-import React from "react"
-import './index.css'
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import {Helmet} from "react-helmet"
-import Hero from "../components/hero/hero"
+import React from "react";
+import './index.css';
+// import { Link } from "gatsby"
+import {Helmet} from "react-helmet";
+import Layout from "../components/layout";
+import Hero from "../components/hero/hero";
 
 export default function Contact() {
   return (
