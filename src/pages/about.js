@@ -5,7 +5,7 @@ import {Helmet} from "react-helmet";
 import Layout from "../components/layout";
 import Hero from "../components/hero/hero";
 import Accredation from "../components/accredation/accredation";
-import RandomAlarmBlurb from "../components/randomAlarmBlurb/randomAlarmBlurb";
+import AlarmBlurb from "../components/alarmBlurb/alarmBlurb";
 
 export default function About() {
   return(
@@ -75,7 +75,7 @@ export default function About() {
       </section>
 
       <section>
-      <RandomAlarmBlurb title="Inventor of RandomAlarm™" />
+      <AlarmBlurb title="Inventor of RandomAlarm™" />
       </section>
 
       

@@ -4,7 +4,7 @@ import {Helmet} from "react-helmet";
 import Layout from '../components/layout';
 import HomeHero from '../components/homeHero/homeHero';
 import Icon from '../components/icon/icon';
-import RandomAlarmBlurb from '../components/randomAlarmBlurb/randomAlarmBlurb';
+import AlarmBlurb from '../components/alarmBlurb/alarmBlurb';
 import Testimonial from '../components/testimonial/testimonial'
 import Stressball from '../components/stressball/stressball'
 
@@ -75,7 +75,7 @@ export default function Home() {
         </section>
 
         <section className="row-grey-bg">
-            <RandomAlarmBlurb title="RandomAlarm™"/>
+            <AlarmBlurb title="RandomAlarm™"/>
         </section>
 
         <section>

@@ -1,7 +1,7 @@
 import React from "react";
-import "./randomAlarmBlurb.css";
+import "./alarmBlurb.css";
 
-export default function RandomAlarmBlurb({title}){
+export default function AlarmBlurb({title}){
     return(
         <div className="container alarm-container">
             <div className="row">
