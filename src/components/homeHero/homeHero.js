@@ -1,6 +1,6 @@
 import React from 'react';
 import './homeHero.css'
-import Button from '../button/button';
+import ButtonElem from '../buttonElem/buttonElem';
 
 export default function HomeHero(){
 
@@ -25,7 +25,7 @@ export default function HomeHero(){
               
                 <div className="row">
                     <div className="col">
-                        <Button text="Book a session now"/>
+                        <ButtonElem text="Book a session now"/>
                     </div>
                 </div>
             </div>

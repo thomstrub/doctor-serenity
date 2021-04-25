@@ -4,7 +4,7 @@ import {Helmet} from "react-helmet";
 import Layout from "../components/layout";
 import Hero from "../components/hero/hero";
 import Icon from "../components/icon/icon";
-import Button from "../components/button/button";
+import ButtonElem from "../components/buttonElem/buttonElem";
 import Services from "../components/services/services";
 import Stressball from "../components/stressball/stressball";
 
