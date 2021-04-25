@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import './index.css';
 import {Helmet} from "react-helmet";
 import Layout from "../components/layout";
@@ -13,9 +13,6 @@ import Stressball from "../components/stressball/stressball";
 
 export default function Contact() {
 
-    const [state, setState] = useState({
-        page: "services"
-      });
 
   return (
     <>
@@ -40,19 +37,19 @@ export default function Contact() {
             <Icon 
                 title="Persistent Goading" 
                 content="Accountability is key. Nothing gets you motivated more than peristent texts, phone calls, and emails from your personal coach."
-                page={state.page} 
+                page="services" 
                 icon="_Images/svg/Goad.svg"   
             />
             <Icon 
                 title="RandomAlarm™" 
                 content="I incorporate my proprietary start-and-stop task management system into all of my coaching techniques. Harness the power of random."
-                page={state.page} 
+                page="services" 
                 icon="_Images/svg/Technique_RandomAlarm.svg"
             />
             <Icon 
                 title="Relentless Advice"
                 content="If you're not asking for advice, you probably need it. We'll establish an open line of communication for you to get advice 24 hours a day!" 
-                page={state.page} 
+                page="services" 
                 icon="_Images/svg/Advice.svg"
             />
           </div>
@@ -83,7 +80,7 @@ export default function Contact() {
             />
         </section>
         <section className="row" style={{marginBottom: "0"}}>
-            <Stressball page={state.page}/>
+            <Stressball page="services"/>
         </section>
    
     </Layout>

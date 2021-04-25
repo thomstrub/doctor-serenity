@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import "./index.css";
 import {Helmet} from "react-helmet";
 import Layout from '../components/layout';
@@ -12,9 +12,7 @@ import Stressball from '../components/stressball/stressball'
 
 
 export default function Home() {
-  const [state, setState] = useState({
-    page: "index"
-  });
+  
   return (
     <>
     <Helmet>
@@ -54,22 +52,22 @@ export default function Home() {
             <Icon 
               title="Well-being" 
               content="Well-being, also known as wellness, prudential value or quality of life, refers to what is intrinsically valuable relative to someone." 
-              page={state.page} 
+              page="home" 
               icon="_Images/svg/Well-being@2x.png"/>
             <Icon 
               title="Productivity" 
               content="We often assume that productivity means getting more things done each day. WRONG! Productivity is getting important things done constantly." 
-              page={state.page} 
+              page="home" 
               icon="_Images/svg/Productivity.svg"/>
             <Icon 
               title="Bad Habits"
               content="Breaking habits can be difficult, especially if you’ve been engaging in them for a long time. But understanding how habits form in the first place can easve the process."
-              page={state.page} 
+              page="home" 
               icon="_Images/svg/Bad_habits.svg"/>
             <Icon 
               title="Relationships" 
               content="All relationships go through ups and downs and they all take work, commitment, and a willingness to adapt and change with your partner. "
-              page={state.page} 
+              page="home" 
               icon="_Images/svg/Relationships.svg"/>
           </div>
         </div>

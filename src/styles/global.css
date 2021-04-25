@@ -1,0 +1,84 @@
+.h2heading {
+    margin: 40px 0 60px 0;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+
+  }
+
+  h3 {
+    margin: 40px 0 40px 0;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  
+  }
+ 
+  /* .hero-img {
+    background-image: url("../../public/_Images/inner_peace.png");
+    background-repeat: no-repeat;
+  }
+
+  .hero {
+    margin-top: 30px;
+    font-family: Merriweather;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 55px;
+    color: #FFFFFF;
+  
+  }
+
+.hero-sub{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+}   */
+
+
+.padding-div{
+  padding: 80px 0 80px 0;
+}
+.serenity-photo{
+  max-width: 300px;
+  max-height: 300px;
+  margin-right: 40px;
+}
+p {
+    margin: 0 0 40px 0;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  #home-quote {
+    font-style: italic;
+    font-weight: normal;
+    margin: 80px 0 80px 0;
+  }
+
+  .row-grey-bg {
+    background: #E7EBEF;
+    width: 100%;
+    height: 100%;
+    
+
+  }
+
+  section {
+    padding: 80px 0 80px 0;
+  }
+
+
+ 
