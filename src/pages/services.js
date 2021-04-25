@@ -58,7 +58,7 @@ export default function Contact() {
           </div>
           <div className="row">
             <div className="col-md-4 offset-3" style={{display: "flex", justifyContent: "center"}}>
-                <Button  text="Contact me"/>
+                <ButtonElem  text="Contact me"/>
             </div>
           </div>
         </div>

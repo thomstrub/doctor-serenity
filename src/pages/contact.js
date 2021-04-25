@@ -4,6 +4,7 @@ import './index.css';
 import {Helmet} from "react-helmet";
 import Layout from "../components/layout";
 import Hero from "../components/hero/hero";
+import ButtonElem from "../components/buttonElem/buttonElem"
 
 export default function Contact() {
   return (
@@ -43,7 +44,7 @@ export default function Contact() {
                 <label for="exampleFormControlTextarea1">Complaint</label>
                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
             </div>
-            <button type="button" className="btn btn-primary btn-lg">Submit</button>
+            <ButtonElem type="button" className="btn btn-primary btn-lg" text="Submit"/>
         </form>
     </div>
     </Layout>
