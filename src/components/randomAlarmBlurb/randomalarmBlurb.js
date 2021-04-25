@@ -1,5 +1,5 @@
 import React from "react";
-import "./randomAlarmBlurb.css"
+import "./randomAlarmBlurb.css";
 
 export default function RandomAlarmBlurb({title}){
     return(

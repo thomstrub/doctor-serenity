@@ -1,5 +1,5 @@
 import React from 'react';
-import './icon.css'
+import './icon.css';
 
 export default function Icon({title, content, page, icon}){
     return(
