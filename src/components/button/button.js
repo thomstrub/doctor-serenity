@@ -1,7 +1,7 @@
 import React from "react";
 import "./button.css"
 import {Button} from 'react-bootstrap'
-import {Link} from 'gatsby'
+// import {Link} from 'gatsby'
 
 export default function ButtonElem({text}){
     return(

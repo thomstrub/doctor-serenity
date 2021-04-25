@@ -1,3 +1,9 @@
+.services-img{
+    width: 300.5px;
+    height: 200px;
+    border-radius: 4px;
+}
+
 .services-header{
     font-family: Merriweather;
     font-style: normal;
@@ -17,8 +23,3 @@
     text-align: left;
 }
 
-.services-img{
-    width: 300.5px;
-    height: 200px;
-    border-radius: 4px;
-}
