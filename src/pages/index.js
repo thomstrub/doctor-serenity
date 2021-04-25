@@ -2,13 +2,14 @@ import React, {useState, useEffect} from "react"
 import "./index.css"
 import {Helmet} from "react-helmet"
 import Layout from '../components/layout'
-import Icon from '../components/icon/icon'
+import HomeHero from '../components/homeHero/homeHero';
+import Icon from '../components/icon/icon';
+import RandomAlarmBlurb from '../components/randomAlarmBlurb/randomAlarmBlurb';
 import Testimonial from '../components/testimonial/testimonial'
-import RandomAlarmBlurb from '../components/randomAlarmBlurb/randomAlarmBlurb'
 import Stressball from '../components/stressball/stressball'
 
-import Footer from '../components/footer/footer'
-import HomeHero from '../components/homeHero/homeHero';
+// import Footer from '../components/footer/footer'
+
 
 export default function Home() {
   const [state, setState] = useState({
