@@ -1,12 +1,14 @@
-import React, {useState} from "react"
-import './index.css'
-import Layout from "../components/layout"
-import Icon from "../components/icon/icon"
-import {Helmet} from "react-helmet"
-import Hero from "../components/hero/hero"
-import Stressball from "../components/stressball/stressball"
-import Services from "../components/services/services"
-import Button from "../components/button/button"
+import React, {useState} from "react";
+import './index.css';
+import {Helmet} from "react-helmet";
+import Layout from "../components/layout";
+import Hero from "../components/hero/hero";
+import Icon from "../components/icon/icon";
+import Button from "../components/button/button";
+import Services from "../components/services/services";
+import Stressball from "../components/stressball/stressball";
+
+
 
 
 export default function Contact() {
