@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from "react"
-import "./index.css"
-import {Helmet} from "react-helmet"
-import Layout from '../components/layout'
+import React, {useState, useEffect} from "react";
+import "./index.css";
+import {Helmet} from "react-helmet";
+import Layout from '../components/layout';
 import HomeHero from '../components/homeHero/homeHero';
 import Icon from '../components/icon/icon';
 import RandomAlarmBlurb from '../components/randomAlarmBlurb/randomAlarmBlurb';
