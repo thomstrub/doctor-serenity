@@ -6,7 +6,7 @@ export default function HomeHero(){
 
     return(
         
-        <div className="container-fluid home-hero-image" style={{backgroundImage: "url('_Images/hero.png')"}} >
+        <div className="container-fluid home-hero-image" style={{backgroundImage: "url('images/hero.jpg')"}} >
             <div className="row">
               
             <div className="col-md-6 offset-5" style={{minHeight: "300px", display: "flex", }}>

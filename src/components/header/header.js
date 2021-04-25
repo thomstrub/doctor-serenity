@@ -19,7 +19,7 @@ export default function Header({page}) {
         <Navbar.Brand as={Link} to="/">
             <img
                 alt=""
-                src="_Images/logo.jpg"
+                src="images/serenityLogo.png"
                 width="110 px"
                 
                 className="d-inline-block"
