@@ -53,22 +53,22 @@ export default function Home() {
               title="Well-being" 
               content="Well-being, also known as wellness, prudential value or quality of life, refers to what is intrinsically valuable relative to someone." 
               page="home" 
-              icon="_Images/svg/Well-being@2x.png"/>
+              icon="/images/icons/Well-being.svg"/>
             <Icon 
               title="Productivity" 
               content="We often assume that productivity means getting more things done each day. WRONG! Productivity is getting important things done constantly." 
               page="home" 
-              icon="_Images/svg/Productivity.svg"/>
+              icon="/images/icons/Productivity.svg"/>
             <Icon 
               title="Bad Habits"
               content="Breaking habits can be difficult, especially if you’ve been engaging in them for a long time. But understanding how habits form in the first place can easve the process."
               page="home" 
-              icon="_Images/svg/Bad_habits.svg"/>
+              icon="/images/icons/Bad_habits.svg"/>
             <Icon 
               title="Relationships" 
               content="All relationships go through ups and downs and they all take work, commitment, and a willingness to adapt and change with your partner. "
               page="home" 
-              icon="_Images/svg/Relationships.svg"/>
+              icon="images/icons/Relationships.svg"/>
           </div>
         </div>
         {/* container */}

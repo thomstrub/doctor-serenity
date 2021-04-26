@@ -38,19 +38,19 @@ export default function Contact() {
                 title="Persistent Goading" 
                 content="Accountability is key. Nothing gets you motivated more than peristent texts, phone calls, and emails from your personal coach."
                 page="services" 
-                icon="_Images/svg/Goad.svg"   
+                icon="/images/icons/Goad.svg"   
             />
             <Icon 
                 title="RandomAlarm™" 
                 content="I incorporate my proprietary start-and-stop task management system into all of my coaching techniques. Harness the power of random."
                 page="services" 
-                icon="_Images/svg/Technique_RandomAlarm.svg"
+                icon="/images/icons/Technique_RandomAlarm.svg"
             />
             <Icon 
                 title="Relentless Advice"
                 content="If you're not asking for advice, you probably need it. We'll establish an open line of communication for you to get advice 24 hours a day!" 
                 page="services" 
-                icon="_Images/svg/Advice.svg"
+                icon="/images/icons/Advice.svg"
             />
           </div>
           <div className="row">
