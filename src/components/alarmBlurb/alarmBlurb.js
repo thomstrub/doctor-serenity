@@ -6,7 +6,7 @@ export default function AlarmBlurb({title}){
         <div className="container alarm-container">
             <div className="row">
                 <div className="col-md-5 offset-md-1">
-                    <img src="_Images/randomalarm-screenshot-left.png" className="img-fluid" alt="Random Alarm"/>
+                    <img src="images/RandomAlarmSleep.png" className="img-fluid" alt="Random Alarm"/>
                 </div>
 
                 <div className="col-md-5">
@@ -14,7 +14,7 @@ export default function AlarmBlurb({title}){
                     <p className="random-alarm-blurb-p">
                     I incorporate my proprietary start-and-stop task management system into all of my coaching techniques. Download today to get started now.
                     </p>
-                    <img src="_Images/btn-download.png" className="img-fluid" alt="Download Random Alarm"/>
+                    <img src="images/RandomAppStore.png" className="img-fluid" alt="Download Random Alarm"/>
                 </div>
 
             </div>

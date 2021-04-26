@@ -53,7 +53,7 @@ export default function Home() {
               title="Well-being" 
               content="Well-being, also known as wellness, prudential value or quality of life, refers to what is intrinsically valuable relative to someone." 
               page="home" 
-              icon="/images/icons/Well-being.svg"/>
+              icon="/images/icons/Well-being.png"/>
             <Icon 
               title="Productivity" 
               content="We often assume that productivity means getting more things done each day. WRONG! Productivity is getting important things done constantly." 
@@ -85,9 +85,9 @@ export default function Home() {
             <h2 className="h2heading">Don’t take my word for it. See what some of my clients have to say.</h2>
           </div>
           <div className="row">
-          <Testimonial name="Tara S." image="_Images/testimonial-tara.jpeg" blurb="I’m sleeping less than ever due to Dr. Serenity™’s RandomAlarm™! I’m really tired all the time but oddly still able to function. It really works!"/>
-          <Testimonial name="Theresa S." image="_Images/testimonial-theresa.jpeg" blurb="Dr. Serenity™’s persistent nagging really gets me motivated. Yet he somehow has a calming effect on me, but that could just be all the magnesium."/>
-          <Testimonial name="Tiffany S." image="_Images/testimonial-tiffany.jpg" blurb="After participating in Dr. Serenity™’s Proprietary Dress for Serenity™ Program, I look and feel more serene than ever. I feel confident in whatever I wear."/>
+          <Testimonial name="Tara S." image="images/Tara.jpg" blurb="I’m sleeping less than ever due to Dr. Serenity™’s RandomAlarm™! I’m really tired all the time but oddly still able to function. It really works!"/>
+          <Testimonial name="Theresa S." image="images/Tara.jpg" blurb="Dr. Serenity™’s persistent nagging really gets me motivated. Yet he somehow has a calming effect on me, but that could just be all the magnesium."/>
+          <Testimonial name="Tiffany S." image="images/Tiffany.jpg" blurb="After participating in Dr. Serenity™’s Proprietary Dress for Serenity™ Program, I look and feel more serene than ever. I feel confident in whatever I wear."/>
           </div>
         </div>
         </div>

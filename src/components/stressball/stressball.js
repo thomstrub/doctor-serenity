@@ -12,7 +12,7 @@ export default function Stressball(){
                     <ButtonElem text="Book a session now"/>
                 </div>
                 <div className="col-md-3">
-                    <img src="_Images/stressball.png" alt="Stressball" className="img-fluid"/>
+                    <img src="images/stressball.png" alt="Stressball" className="img-fluid"/>
                 </div>
 
             </div>
