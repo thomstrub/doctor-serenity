@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from '../icon/icon'
 import './alarmDetails.css'
 
-export default function AlarmDetails({state}){
+export default function AlarmDetails({page}){
     return(
         <section id="details">
         <div className="container">
@@ -22,20 +22,20 @@ export default function AlarmDetails({state}){
             <Icon 
               title="RandomNap™"
               content="RandomAlarm™ gently notifies you at random times throughout the day when you should take a nap or wake from restfulness. Frequent naps lead to frequent productivity and well-being." 
-              page={state.page} 
-              icon="_Images/svg/RandomNap.svg"
+              page={page} 
+              icon="images/icons/RandomNap.svg"
               />
             <Icon 
             title="RandomTask™"
             content="Starting and stopping work at random times throughout the day may seem counterintuitive, but Dr. Serenity’s informal research has proven otherwise. RandomAlarm™ will help." 
-            page={state.page} 
-            icon="_Images/svg/RandomTask.svg"
+            page={page} 
+            icon="images/icons/RandomTask.svg"
             />
             <Icon 
             title="RandomNourish™"
             content="RandomAlarm™ tells you when to eat based on random science. Not eating on a set schedule keeps your blood sugar at random levels throughout the day." 
-            page={state.page} 
-            icon="_Images/svg/RandomNourish.svg"
+            page={page} 
+            icon="images/icons/RandomNourish.svg"
             />
           </div>
         </div>

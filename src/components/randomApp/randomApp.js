@@ -6,7 +6,7 @@ export default function RandomApp(){
         <div className="container random-padding">
             <div className="row">
                 <div className="col-md-3 offset-1">
-                    <img src="_Images/randomalarm-app.jpg" className="img-fluid" alt="Random Alarm"/>
+                    <img src="images/random_alarm_app.jpg" className="img-fluid" alt="Random Alarm"/>
                 </div>
 
                 <div className="col-md-6 offset-1">
@@ -14,7 +14,7 @@ export default function RandomApp(){
                     <p className="app-text">
                     I have innovated three proprietary methods that coordinate with each measured success. Together, they are called RandomAlarm™.
                     </p>
-                    <img src="_Images/btn-download.png" className="img-fluid" alt="Download Random Alarm"/>
+                    <img src="images/RandomAppStore_White.png" className="img-fluid" alt="Download Random Alarm"/>
                 </div>
 
             </div>

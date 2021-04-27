@@ -8,9 +8,7 @@ import Fundamentals from "../components/fundamentals/fundamentals";
 import AlarmDetails from "../components/alarmDetails/alarmDetails";
 
 export default function Contact() {
-    const [state, setState] = useState({
-        page: "services"
-      });
+   
   return (
     <>
     <Helmet>
@@ -24,16 +22,16 @@ export default function Contact() {
           />
     </Helmet>
     <Layout page="RandomAlarm™">
-        <Hero image='_Images/business.jpg' blurb="Expose yourself to as much randomness as possible."/>
+        <Hero image='images/random_hero.jpg' blurb="Expose yourself to as much randomness as possible."/>
         <RandomApp />
         <Fundamentals />
-        <AlarmDetails state={state}/>
+        <AlarmDetails page="randomAlarm"/>
         
         <section className="row-grey-bg">
             <div className="container" >
                 <div className="row">
                     <div className="col-md-5 offset-md-1">
-                        <img src="_Images/alarm-clock.png" alt="alarm clock" className="img-fluid"/>
+                        <img src="images/alarm_clock.jpg" alt="alarm clock" className="img-fluid"/>
                         
                     </div>
                     <div className="col-md-6">
@@ -50,7 +48,7 @@ export default function Contact() {
                 <div className="row">
                     <div className="col-md-6 offset-md-3">
                     <h2 className="h2heading">What are you waiting for? Download RandomAlarm™ today.</h2>
-                        <img src="_Images/btn-download.png" alt="download" className="img-fluid"/>
+                        <img src="images/RandomAppStore_White.png" alt="download" className="img-fluid"/>
                         
                     </div>
                     

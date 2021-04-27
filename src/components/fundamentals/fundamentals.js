@@ -15,7 +15,7 @@ export default function Fundamentals(){
                     <ButtonElem text="Book a session now"></ButtonElem>
                 </div>
                 <div className="col-md-4">
-                    <img src="_Images/random-ven.png" alt="random-ven" className="img-fluid"/>
+                    <img src="images/random_ven.png" alt="random-ven" className="img-fluid"/>
                 </div>
 
             </div>

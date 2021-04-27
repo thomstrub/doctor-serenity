@@ -20,7 +20,7 @@ export default function Contact() {
           />
     </Helmet>
     <Layout page="Contact">
-    <Hero image='_Images/beach.png' blurb="There is peace even in the storm."/>
+    <Hero image='images/contact_hero.jpg' blurb="There is peace even in the storm."/>
     <div className="container-md" style={{marginBottom: "50px", marginTop: "50px"}}>
     <h2 className="h2heading">Get in touch to begin your journey.</h2>
     </div>
