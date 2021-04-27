@@ -25,7 +25,7 @@ export default function About() {
       <div id="page-container">
 
       <Hero 
-        image="_Images/aziz-acharki-2fgnVgsm5uM-unsplash.png" 
+        image="images/about_hero.jpg" 
         blurb="If your dreams don’t scare you, they’re too small." 
       />
 
@@ -33,12 +33,12 @@ export default function About() {
         <div className="container">
         <div className="row padding-div">
           <div className="col-md-3 offset-md-2">
-            <img src="_Images/i-am-dr-serenity.png" alt="Dr. Serenity" className="serenity-photo"/>
+            <img src="images/i_am_dr_serenity.jpg" alt="Dr. Serenity" className="serenity-photo"/>
           </div>
           <div className="col-md-5 offset-1" >
             <h2 className="h2heading" style={{textAlign: "left", marginBottom: "30px"}}>I’m Dr. Serenity™</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, erat cras ante erat imperdiet eget augue quis a. Volutpat tincidunt fermentum, lobortis purus sed amet. Nibh elementum arcu scelerisque interdum. Netus in id libero leo sed penatibus.
+              I can help you live your life the largest potential of your fullest self. A dream is just a dream until you forge it in the flames of fate and hammer it to your will. I can do just about anything, I just feel more alive doing it.
             </p>
           </div>
 
@@ -56,18 +56,18 @@ export default function About() {
         <Accredation 
           name="Dog Training" 
           blurb="My experience as a dog trainer* has lent itself to the world of Life Coaching. You’d be surprised how much humans and dogs are alike! They just need a little discipline." 
-          image="_Images/about-accredidation-dogtraining.png"
+          image="images/dog_training.jpg"
           caption="*not formally certified"
           />
         <Accredation 
           name="Doctor of Divinity" 
           blurb="You can obtain the Doctor of Divinity Degree through the Universal Life Church. When you order this custom 8.5 x 11 inch frameable certificate, they send it out to be hand-lettered in beautiful calligraphy by the church scribe. It is printed on high quality paper, with a standard frame sizing and features the gold church seal." 
-          image="_Images/about-accredidation-doctorofdivinity.png"
+          image="images/doctor_divinity.jpg"
           />
         <Accredation 
           name="Hazmat Training" 
           blurb="In order to receive a hazmat certification, employees must participate in general awareness or familiarization training conducted by a verified HAZMAT consultant. Participants will have a basic understanding of the following fundamentals: The Identification of Hazardous Materials. The Hazard ClassNameification System." 
-          image="_Images/about-accredidation-hazmat.png"
+          image="images/hazmat_certification.jpg"
           />
 
       </div>

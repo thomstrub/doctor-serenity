@@ -27,7 +27,7 @@ export default function Contact() {
           />
     </Helmet>
     <Layout page="Services">
-        <Hero image='_Images/svg/services_hero.svg' blurb="Forget the mistake. Remember the lesson."/>
+        <Hero image='images/services_hero.jpg' blurb="Forget the mistake. Remember the lesson."/>
         <section>
         <div className="container">
           <div className="row">
@@ -65,17 +65,17 @@ export default function Contact() {
     
             <Services 
                 title="Text Coaching"
-                image="_Images/text_coaching.png" 
+                image="images/text_coaching.jpg" 
                 text="Are you too poor to afford regular coaching? I’m also available for text coaching. Paired with RandomAlarm™, this is a fool-proof method to get your life back on track."
             />
             <Services 
                 title="Motivational Speaking"
-                image="_Images/ted.png" 
+                image="images/motivational_speaking.jpg" 
                 text="I’ve given lots of life advice to most people I meet. My dream is to speak at a TED Conference LLC. Although I don’t have formal experience in motivational speaking, you can count on me to engage with any audience and give great Life Coaching advice."
             />
             <Services 
                 title="Style coaching: Dress for Deeper Serenity"
-                image="_Images/style_coaching.png"
+                image="images/style_coaching.jpg"
                 text="The power of clothes: what you wear affects your emotions. Dress like a champion to feel like a champion. I’ll help you hone in on your unique style and truly express yourself."
             />
         </section>
