@@ -12,7 +12,7 @@ export default function Fundamentals(){
                     <p className="fundamentals">
                         My research and past experience have informed my proprietary techniques. I have found that “sleep”, “work”, and “diet” are the key ingredients to measured success. I have innovated three proprietary methods that coordinate with each measured success. Together, they are called RandomAlarm™.
                     </p>
-                    <ButtonElem text="Book a session now"></ButtonElem>
+                    <ButtonElem text="Book a session now" target="contact"></ButtonElem>
                 </div>
                 <div className="col-md-4">
                     <img src="images/random_ven.png" alt="random-ven" className="img-fluid"/>

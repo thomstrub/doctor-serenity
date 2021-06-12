@@ -97,7 +97,7 @@ export default function Home() {
         </section>
 
         <section className="row-grey-bg" style={{marginBottom: "0"}}>
-            <Stressball />
+            <Stressball target="contact"/>
         </section>
 
       
