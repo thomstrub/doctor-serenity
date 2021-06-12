@@ -25,7 +25,7 @@ export default function HomeHero(){
               
                 <div className="row">
                     <div className="col">
-                        <ButtonElem text="Book a session now"/>
+                        <ButtonElem text="Book a session now" target="contact"/>
                     </div>
                 </div>
             </div>

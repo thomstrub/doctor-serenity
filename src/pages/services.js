@@ -25,6 +25,7 @@ export default function Contact() {
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
             crossorigin="anonymous"
           />
+          <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet"/>
     </Helmet>
     <Layout page="Services">
         <Hero image='images/services_hero.jpg' blurb="Forget the mistake. Remember the lesson."/>
@@ -55,7 +56,7 @@ export default function Contact() {
           </div>
           <div className="row">
             <div className="col-md-4 offset-3" style={{display: "flex", justifyContent: "center"}}>
-                <ButtonElem  text="Contact me"/>
+                <ButtonElem  text="Contact me" target="contact"/>
             </div>
           </div>
         </div>
@@ -80,7 +81,7 @@ export default function Contact() {
             />
         </section>
         <section className="row" style={{marginBottom: "0"}}>
-            <Stressball page="services"/>
+            <Stressball page="services" target="contact"/>
         </section>
    
     </Layout>
