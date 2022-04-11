@@ -7,12 +7,33 @@ import Icon from '../components/icon/icon';
 import AlarmBlurb from '../components/alarmBlurb/alarmBlurb';
 import Testimonial from '../components/testimonial/testimonial'
 import Stressball from '../components/stressball/stressball'
+import SmallHomeHero from "../components/smallHomeHero/smallHomeHero";
 
 // import Footer from '../components/footer/footer'
 
 
 export default function Home() {
-  
+  let heroElem;
+  const mediaQuery = window.matchMedia('(min-width: 768px)')
+
+function handleTabletChange(e) {
+  // Check if the media query is true
+  if (e.matches) {
+    // Then log the following message to the console
+    console.log('Media Query Matched!')
+    heroElem = <HomeHero />;
+  } else {
+    console.log('Not Matched');
+    heroElem = <SmallHomeHero/>;
+
+  }
+}
+
+// Register event listener
+mediaQuery.addListener(handleTabletChange)
+
+// Initial check
+handleTabletChange(mediaQuery)
   return (
     <>
     <Helmet>
@@ -30,7 +51,7 @@ export default function Home() {
     <Layout page="Home">
     <div  id="page-container">
 
-        <HomeHero />
+        {heroElem}
         
         <section className="row-grey-bg">
         <div className="container">
