@@ -13,27 +13,37 @@ import SmallHomeHero from "../components/smallHomeHero/smallHomeHero";
 
 
 export default function Home() {
+
   let heroElem;
-  const mediaQuery = window.matchMedia('(min-width: 768px)')
 
-function handleTabletChange(e) {
-  // Check if the media query is true
-  if (e.matches) {
-    // Then log the following message to the console
-    console.log('Media Query Matched!')
-    heroElem = <HomeHero />;
-  } else {
-    console.log('Not Matched');
-    heroElem = <SmallHomeHero/>;
+  // utils.js
+  let mediaQuery;
+  const isBrowser = typeof window !== "undefined"
 
+  function handleTabletChange(e) {
+    // Check if the media query is true
+    if (e.matches) {
+      // Then log the following message to the console
+      console.log('Media Query Matched!')
+      heroElem = <HomeHero />;
+    } else {
+      console.log('Not Matched');
+      heroElem = <SmallHomeHero/>;
+
+    }
   }
-}
 
-// Register event listener
-mediaQuery.addListener(handleTabletChange)
+  if(isBrowser && window.matchMedia('(min-width: 768px)')){
+    mediaQuery = window.matchMedia('(min-width: 768px)')
+    // Register event listener
+    mediaQuery.addListener(handleTabletChange)
+    // Initial check
+    handleTabletChange(mediaQuery)
+  } else {
+    heroElem = <HomeHero />;
+  }
 
-// Initial check
-handleTabletChange(mediaQuery)
+
   return (
     <>
     <Helmet>
