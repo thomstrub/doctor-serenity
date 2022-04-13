@@ -40,6 +40,7 @@ export default function Home() {
     // Initial check
     handleTabletChange(mediaQuery)
   } else {
+    console.log("no window detected.")
     heroElem = <HomeHero />;
   }
 
