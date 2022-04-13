@@ -36,7 +36,7 @@ export default function Home() {
   if(isBrowser && window.matchMedia('(min-width: 768px)')){
     mediaQuery = window.matchMedia('(min-width: 768px)')
     // Register event listener
-    mediaQuery.addListener(handleTabletChange)
+    mediaQuery.addEventListener("change", handleTabletChange)
     // Initial check
     handleTabletChange(mediaQuery)
   } else {
@@ -63,6 +63,7 @@ export default function Home() {
     <div  id="page-container">
 
         {heroElem}
+        {/* <HomeHero /> */}
         
         <section className="row-grey-bg">
         <div className="container">
