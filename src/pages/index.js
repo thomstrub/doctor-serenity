@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./index.css";
 import {Helmet} from "react-helmet";
 import Layout from '../components/layout';
@@ -14,36 +14,36 @@ import SmallHomeHero from "../components/smallHomeHero/smallHomeHero";
 
 export default function Home() {
 
-  let heroElem;
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  useEffect (() => {
+    let mediaQuery;
+    const isBrowser = typeof window !== "undefined";
+    if(isBrowser && window.matchMedia('(min-width: 768px)')){
+      mediaQuery = window.matchMedia('(min-width: 768px)')
+      // Register event listener
+      mediaQuery.addEventListener("change", handleTabletChange)
+      // Initial check
+      handleTabletChange(mediaQuery)
+    } 
+    return () => mediaQuery.removeEventListener("change", handleTabletChange)
+  })
 
   // utils.js
-  let mediaQuery;
-  const isBrowser = typeof window !== "undefined"
+ 
 
   function handleTabletChange(e) {
     // Check if the media query is true
     if (e.matches) {
       // Then log the following message to the console
       console.log('Media Query Matched!')
-      heroElem = <HomeHero />;
+      setIsDesktop(true);
     } else {
       console.log('Not Matched');
-      heroElem = <SmallHomeHero/>;
+      setIsDesktop(false);
 
     }
   }
-
-  if(isBrowser && window.matchMedia('(min-width: 768px)')){
-    mediaQuery = window.matchMedia('(min-width: 768px)')
-    // Register event listener
-    mediaQuery.addEventListener("change", handleTabletChange)
-    // Initial check
-    handleTabletChange(mediaQuery)
-  } else {
-    console.log("no window detected.")
-    heroElem = <HomeHero />;
-  }
-
 
   return (
     <>
@@ -62,7 +62,7 @@ export default function Home() {
     <Layout page="Home">
     <div  id="page-container">
 
-        {heroElem}
+        {isDesktop ? <HomeHero/> : <SmallHomeHero/>}
         {/* <HomeHero /> */}
         
         <section className="row-grey-bg">
